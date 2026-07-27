@@ -10,6 +10,25 @@
  * without a database, not just because it's careful.
  */
 
+export interface ContractYearInput {
+  season: string;
+  salary: number;
+}
+
+/**
+ * Resolves what a contract actually costs for one specific season, now
+ * that salary is a per-year breakdown (ContractYear) instead of one
+ * flat number. Returns 0 for a season the contract doesn't cover —
+ * either it hasn't started yet or it's already run out — same as
+ * having no contract at all for cap purposes that season.
+ */
+export function resolveSalaryForSeason(
+  years: ContractYearInput[],
+  season: string
+): number {
+  return years.find((y) => y.season === season)?.salary ?? 0;
+}
+
 export interface TeamCapInput {
   teamId: string;
   capAmount: number;

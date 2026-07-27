@@ -141,21 +141,53 @@ model Player {
   draftQueueEntries DraftQueueEntry[]
 }
 
+enum ContractType {
+  STANDARD
+  TWO_WAY
+  EXHIBIT_10
+  UNSIGNED_PICK
+}
+
+enum FreeAgentRestriction {
+  UFA
+  RFA
+}
+
 // The dynasty/cap layer. This is the part sports.ws doesn't provide —
 // it's tracked per-league because "salary" here is an in-league number,
 // not literally the player's real NBA salary (though many leagues set it
 // using real salary or auction price as a reference point).
+//
+// Redesigned from a single flat salary+years to a per-season breakdown
+// (see ContractYear) once it became clear real dynasty contracts
+// escalate year to year — a flat number couldn't represent Devin
+// Booker making $57M, then $61M, then $63M, then $68M on the same deal;
+// it could only ever average it or snapshot one year.
 model Contract {
-  id             String  @id @default(cuid())
-  player         Player  @relation(fields: [playerId], references: [id])
-  playerId       String
-  team           Team    @relation(fields: [teamId], references: [id])
-  teamId         String
-  salary         Int
-  yearsTotal     Int
-  yearsRemaining Int
-  startSeason    String
-  isActive       Boolean @default(true)
+  id           String                @id @default(cuid())
+  player       Player                @relation(fields: [playerId], references: [id])
+  playerId     String
+  team         Team                  @relation(fields: [teamId], references: [id])
+  teamId       String
+  contractType ContractType          @default(STANDARD)
+  restriction  FreeAgentRestriction? // what this player becomes once the contract's years run out
+  spotracUrl   String?
+  isActive     Boolean               @default(true)
+
+  years ContractYear[]
+}
+
+// One row per season of a contract's salary — what actually lets a
+// team's cap hit for a GIVEN season be computed correctly, instead of
+// one flat number pretending every year of a deal costs the same.
+model ContractYear {
+  id         String   @id @default(cuid())
+  contract   Contract @relation(fields: [contractId], references: [id])
+  contractId String
+  season     String // e.g. "2026-27" — same format as League.currentSeason
+  salary     Int
+
+  @@unique([contractId, season])
 }
 
 // Who's on a team's roster and in what priority order — the order the

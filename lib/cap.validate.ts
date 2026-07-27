@@ -7,7 +7,23 @@
  */
 
 import assert from "node:assert";
-import { projectCapImpact } from "./cap";
+import { projectCapImpact, resolveSalaryForSeason } from "./cap";
+
+// --- Resolving a season's salary from a per-year breakdown -------------
+{
+  const years = [
+    { season: "2026-27", salary: 40 },
+    { season: "2027-28", salary: 44 },
+    { season: "2028-29", salary: 47 },
+  ];
+
+  assert.strictEqual(resolveSalaryForSeason(years, "2026-27"), 40, "first year of the deal");
+  assert.strictEqual(resolveSalaryForSeason(years, "2028-29"), 47, "last year of the deal");
+  assert.strictEqual(resolveSalaryForSeason(years, "2029-30"), 0, "a season after the deal ends costs nothing, same as no contract");
+  assert.strictEqual(resolveSalaryForSeason([], "2026-27"), 0, "no years at all (e.g. a free agent) resolves to 0, not a crash");
+
+  console.log("✓ Per-season salary resolves correctly for in-range, out-of-range, and empty contracts");
+}
 
 // --- Two-team swap ----------------------------------------------------
 {

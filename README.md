@@ -72,13 +72,22 @@ This is a **foundation**, not a finished product — see "What's here" and
   real platform. `lib/matchup-scoring-db.ts` fetches real data and feeds
   it in.
 - **Contracts &amp; cap** — `/league/[id]/team/[teamId]/contracts` — the
-  actual dynasty layer, and the part sports.ws doesn't have at all. Set
-  salary/years per rostered player, see committed vs. cap space update
-  live, remove a contract. Same owner-or-commissioner permission model as
-  the roster page. One simplifying assumption worth knowing: a player
-  has at most one *active* contract per team — editing overwrites in
-  place rather than keeping history. Fine for now; the fix if that ever
-  matters is in a comment in `contracts/actions.ts`.
+  actual dynasty layer, and the part sports.ws doesn't have at all.
+  Contracts store a full year-by-year salary breakdown (`ContractYear`,
+  one row per season) rather than a single flat number — real dynasty
+  deals escalate season to season, and a flat number could only ever
+  average that or snapshot one year. Also tracks contract type
+  (standard / two-way / exhibit 10 / unsigned pick), UFA/RFA status,
+  and an optional Spotrac link per player. Cap space is computed for
+  whichever season is the league's current one (`lib/cap.ts`'s
+  `resolveSalaryForSeason`, pure and validated) — a two-way or
+  exhibit-10 deal naturally costs $0 against the cap by just having no
+  salary years entered, matching how those contract types actually work
+  in the real NBA, no special-casing needed. Same owner-or-commissioner
+  permission model as the roster page. One simplifying assumption worth
+  knowing: a player has at most one *active* contract per team — editing
+  overwrites in place rather than keeping history. Fine for now; the fix
+  if that ever matters is in a comment in `contracts/actions.ts`.
 - **Draft** — `/league/[id]/draft` — the commissioner starts a draft
   (randomized team order, however many rounds), then whoever's on the
   clock (or the commissioner, standing in) searches and drafts a player.

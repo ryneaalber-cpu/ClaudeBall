@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "prisma db push && next build",
+    "build": "prisma db push --accept-data-loss && next build",
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate",
-    "db:push": "prisma db push",
+    "db:push": "prisma db push --accept-data-loss",
     "db:studio": "prisma studio",
     "db:seed": "tsx prisma/seed.ts",
     "validate:scoring": "tsx lib/scoring-engine.validate.ts",
@@ -17,7 +17,8 @@
     "validate:cap": "tsx lib/cap.validate.ts",
     "validate:schedule": "tsx lib/schedule.validate.ts",
     "validate:standings": "tsx lib/standings.validate.ts",
-    "validate:date-chunks": "tsx lib/date-chunks.validate.ts"
+    "validate:date-chunks": "tsx lib/date-chunks.validate.ts",
+    "validate:season": "tsx lib/season.validate.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

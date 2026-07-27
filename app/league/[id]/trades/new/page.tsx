@@ -2,6 +2,7 @@ import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
+import { resolveSalaryForSeason } from "@/lib/cap";
 import { TradeBuilder } from "./trade-builder";
 
 function normalizeTeamIds(raw: string | string[] | undefined): string[] {
@@ -120,13 +121,17 @@ export default async function NewTradePage({
     }),
     prisma.contract.findMany({
       where: { teamId: { in: teamIds }, isActive: true },
+      include: { years: true },
     }),
   ]);
 
-  const salaryByPlayer = new Map(contracts.map((c) => [c.playerId, c.salary]));
+  const salaryByPlayer = new Map(
+    contracts.map((c) => [c.playerId, resolveSalaryForSeason(c.years, league.currentSeason)])
+  );
   const committedByTeam = new Map<string, number>();
   for (const c of contracts) {
-    committedByTeam.set(c.teamId, (committedByTeam.get(c.teamId) ?? 0) + c.salary);
+    const salary = resolveSalaryForSeason(c.years, league.currentSeason);
+    committedByTeam.set(c.teamId, (committedByTeam.get(c.teamId) ?? 0) + salary);
   }
 
   const builderTeams = teams.map((t) => ({
