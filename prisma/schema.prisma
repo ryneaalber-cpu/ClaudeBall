@@ -1,0 +1,348 @@
+// Dynasty Fantasy Hoops — database schema
+//
+// Design notes for future-you (or Claude Code, picking this up later):
+//
+// - Scoring weights and position minute-pools are DATA, not hardcoded constants.
+//   sports.ws lets commissioners define custom scoring; we do the same via
+//   ScoringCategory and PositionPool rows instead of baking numbers into code.
+//   That also means you don't have to get the exact numbers right today —
+//   they're editable from a settings page later.
+//
+// - "Dynasty contract" fields live on Contract, separate from RosterEntry.
+//   RosterEntry is "who's on the team and in what lineup priority order";
+//   Contract is "what they're being paid and for how long." A player can
+//   have roster history without a live contract (e.g. practice-squad rules,
+//   if your league has them) so these are kept independent on purpose.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  COMMISSIONER
+  OWNER
+}
+
+enum Position {
+  C
+  F
+  G
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  createdAt    DateTime @default(now())
+
+  memberships LeagueMembership[]
+  teams       Team[]
+}
+
+// A user's role within a specific league — lets one person be commissioner
+// of their own league and just an owner in someone else's, later on.
+model LeagueMembership {
+  id       String @id @default(cuid())
+  user     User   @relation(fields: [userId], references: [id])
+  userId   String
+  league   League @relation(fields: [leagueId], references: [id])
+  leagueId String
+  role     Role   @default(OWNER)
+
+  @@unique([userId, leagueId])
+}
+
+model League {
+  id            String   @id @default(cuid())
+  name          String
+  currentSeason String // e.g. "2026-27"
+  capEnabled    Boolean  @default(true) // commissioners can turn cap enforcement off entirely
+  capAmount     Int      @default(200) // dynasty salary cap total, in whatever unit the league uses — meaningless while capEnabled is false, but kept so re-enabling doesn't lose the number
+  createdAt     DateTime @default(now())
+
+  memberships     LeagueMembership[]
+  teams           Team[]
+  scoringCategories ScoringCategory[]
+  positionPools   PositionPool[]
+  matchups        Matchup[]
+  drafts          Draft[]
+  trades          Trade[]
+}
+
+// One row per stat category the league scores on (PTS, REB, AST, STL, BLK,
+// TOV, FGM, FTA, ...). Editable in-app — this is what makes scoring
+// "commissioner custom" instead of fixed.
+model ScoringCategory {
+  id       String @id @default(cuid())
+  league   League @relation(fields: [leagueId], references: [id])
+  leagueId String
+  statKey  String // matches a field name in PlayerGameLog.stats JSON
+  label    String // e.g. "Three-Pointers Made"
+  weight   Float
+
+  @@unique([leagueId, statKey])
+}
+
+// One row per position, defining how many minutes of that position must be
+// "filled" per game. Defaults to the sports.ws-style 48/96/96 split but is
+// editable, and leagues could add positions if they wanted.
+model PositionPool {
+  id           String   @id @default(cuid())
+  league       League   @relation(fields: [leagueId], references: [id])
+  leagueId     String
+  position     Position
+  minutesTotal Int // e.g. C: 48, F: 96, G: 96
+
+  @@unique([leagueId, position])
+}
+
+model Team {
+  id       String @id @default(cuid())
+  league   League @relation(fields: [leagueId], references: [id])
+  leagueId String
+  owner    User   @relation(fields: [ownerId], references: [id])
+  ownerId  String
+  name     String
+
+  rosterEntries RosterEntry[]
+  contracts     Contract[]
+  homeMatchups  Matchup[] @relation("MatchupTeamA")
+  awayMatchups  Matchup[] @relation("MatchupTeamB")
+  draftPicks    DraftPick[]
+  tradeParticipations TradeParticipant[]
+  draftQueueEntries DraftQueueEntry[]
+}
+
+// Universal player record. Synced from the stats provider (see
+// lib/stats-provider.ts, not yet written) rather than entered by hand.
+model Player {
+  id              String    @id @default(cuid())
+  externalId      String    @unique // id from the stats API, so re-syncs match existing rows
+  firstName       String
+  lastName        String
+  nbaTeam         String
+  primaryPosition Position
+  // Secondary position for dual-eligibility (sports.ws's "FG"-style tagging).
+  // Stats providers don't label this — it's a fantasy-specific judgment call,
+  // so it's a plain editable field a commissioner can set, not something scraped.
+  secondaryPosition Position?
+
+  contracts     Contract[]
+  rosterEntries RosterEntry[]
+  gameLogs      PlayerGameLog[]
+  draftPicks    DraftPick[]
+  tradeItems    TradeItem[]
+  draftQueueEntries DraftQueueEntry[]
+}
+
+// The dynasty/cap layer. This is the part sports.ws doesn't provide —
+// it's tracked per-league because "salary" here is an in-league number,
+// not literally the player's real NBA salary (though many leagues set it
+// using real salary or auction price as a reference point).
+model Contract {
+  id             String  @id @default(cuid())
+  player         Player  @relation(fields: [playerId], references: [id])
+  playerId       String
+  team           Team    @relation(fields: [teamId], references: [id])
+  teamId         String
+  salary         Int
+  yearsTotal     Int
+  yearsRemaining Int
+  startSeason    String
+  isActive       Boolean @default(true)
+}
+
+// Who's on a team's roster and in what priority order — the order the
+// minutes-filling algorithm processes players in for a given game.
+// Lower priorityOrder = filled first.
+model RosterEntry {
+  id            String @id @default(cuid())
+  team          Team   @relation(fields: [teamId], references: [id])
+  teamId        String
+  player        Player @relation(fields: [playerId], references: [id])
+  playerId      String
+  priorityOrder Int
+
+  @@unique([teamId, playerId])
+}
+
+// Real NBA schedule + results, synced from the stats provider. Each real
+// game gets exactly one row, covering both teams — deliberately NOT
+// storing a "seasonGameNumber" column here. An earlier version of this
+// schema did, tagged to only one team's perspective, which meant a
+// team's away games never counted toward their own sequence. A team's
+// Nth game is computed at query time instead (see
+// lib/matchup-scoring.ts) by ordering every game that team appears in,
+// home or away, by date — always correct, nothing to keep in sync.
+model Game {
+  id         String   @id @default(cuid())
+  externalId String   @unique
+  date       DateTime
+  homeTeam   String
+  awayTeam   String
+
+  playerGameLogs PlayerGameLog[]
+}
+
+// One row per player per game — the box score. `stats` is a JSON blob
+// keyed by the same statKey strings used in ScoringCategory, so scoring
+// stays generic instead of hardcoding a column per stat.
+model PlayerGameLog {
+  id             String @id @default(cuid())
+  player         Player @relation(fields: [playerId], references: [id])
+  playerId       String
+  game           Game   @relation(fields: [gameId], references: [id])
+  gameId         String
+  minutesPlayed  Float
+  stats          Json // { "PTS": 24, "REB": 10, "AST": 5, "FGM": 9, ... }
+
+  @@unique([playerId, gameId])
+}
+
+// A fantasy matchup between two teams for one "game number" window.
+// Scores are cached here once computed rather than recalculated on every
+// page view — see lib/scoring-engine.ts for how they're derived.
+model Matchup {
+  id               String @id @default(cuid())
+  league           League @relation(fields: [leagueId], references: [id])
+  leagueId         String
+  gameNumber       Int
+  teamA            Team   @relation("MatchupTeamA", fields: [teamAId], references: [id])
+  teamAId          String
+  teamB            Team   @relation("MatchupTeamB", fields: [teamBId], references: [id])
+  teamBId          String
+  teamAScore       Float?
+  teamBScore       Float?
+}
+
+enum DraftStatus {
+  IN_PROGRESS
+  COMPLETED
+}
+
+// One draft per league per season (a startup draft the first year, a
+// rookie draft in later ones — same model either way). Picks are
+// generated all at once when the draft starts (see lib/draft.ts for the
+// snake-order logic), then filled in one at a time as they're made.
+model Draft {
+  id        String      @id @default(cuid())
+  league    League      @relation(fields: [leagueId], references: [id])
+  leagueId  String
+  season    String
+  rounds    Int
+  status    DraftStatus @default(IN_PROGRESS)
+  createdAt DateTime    @default(now())
+
+  picks        DraftPick[]
+  queueEntries DraftQueueEntry[]
+}
+
+// A single slot in the draft order. playerId is null until the pick is
+// actually made — "the next pick" is just the lowest pickNumber with a
+// null playerId, no separate "current pick" pointer to keep in sync.
+model DraftPick {
+  id         String    @id @default(cuid())
+  draft      Draft     @relation(fields: [draftId], references: [id])
+  draftId    String
+  pickNumber Int
+  round      Int
+  team       Team      @relation(fields: [teamId], references: [id])
+  teamId     String
+  player     Player?   @relation(fields: [playerId], references: [id])
+  playerId   String?
+  madeAt     DateTime?
+
+  @@unique([draftId, pickNumber])
+}
+
+// A team's ranked list of players they want, set up whenever's
+// convenient rather than only while actually on the clock — this is
+// the actual mechanic behind a "passive" draft. When it's this team's
+// turn, anyone in the league can trigger an auto-pick (see
+// autoPickForOnTheClock in draft/actions.ts) that takes the
+// highest-ranked entry here that hasn't already been drafted by
+// someone else. Lower rank = more preferred.
+model DraftQueueEntry {
+  id       String @id @default(cuid())
+  draft    Draft  @relation(fields: [draftId], references: [id])
+  draftId  String
+  team     Team   @relation(fields: [teamId], references: [id])
+  teamId   String
+  player   Player @relation(fields: [playerId], references: [id])
+  playerId String
+  rank     Int
+
+  @@unique([draftId, teamId, playerId])
+}
+
+enum TradeStatus {
+  PENDING
+  ACCEPTED
+  REJECTED
+  CANCELLED
+}
+
+enum ParticipantResponse {
+  PENDING
+  ACCEPTED
+  DECLINED
+}
+
+// A trade between two OR MORE teams. Deliberately players-only for now
+// — future draft picks as a tradeable asset is a real dynasty-league
+// feature but a genuinely separate piece of modeling (a pick that
+// doesn't exist as a DraftPick row yet, since that only gets created
+// when a draft actually starts), not squeezed in here.
+//
+// No fixed "proposingTeam"/"receivingTeam" fields on purpose — those
+// only made sense for exactly two teams. Every team involved is a
+// TradeParticipant instead, so 2-team and 5-team trades use the same
+// shape. The trade executes once every participant's response is
+// ACCEPTED; any single DECLINED rejects the whole thing immediately
+// rather than waiting on the rest.
+model Trade {
+  id        String      @id @default(cuid())
+  league    League      @relation(fields: [leagueId], references: [id])
+  leagueId  String
+  status    TradeStatus @default(PENDING)
+  createdAt DateTime    @default(now())
+  resolvedAt DateTime?
+
+  participants TradeParticipant[]
+  items        TradeItem[]
+}
+
+// One row per team involved in a trade. The proposer is auto-ACCEPTED
+// at creation (proposing an offer IS agreeing to it) — everyone else
+// starts PENDING and has to actively respond.
+model TradeParticipant {
+  id         String              @id @default(cuid())
+  trade      Trade               @relation(fields: [tradeId], references: [id])
+  tradeId    String
+  team       Team                @relation(fields: [teamId], references: [id])
+  teamId     String
+  isProposer Boolean             @default(false)
+  response   ParticipantResponse @default(PENDING)
+
+  @@unique([tradeId, teamId])
+}
+
+// One row per player changing hands. fromTeamId/toTeamId are stored
+// explicitly rather than derived from which teams are participants, so
+// the historical record stays correct even after a player who was
+// traded gets traded again later.
+model TradeItem {
+  id         String @id @default(cuid())
+  trade      Trade  @relation(fields: [tradeId], references: [id])
+  tradeId    String
+  player     Player @relation(fields: [playerId], references: [id])
+  playerId   String
+  fromTeamId String
+  toTeamId   String
+}

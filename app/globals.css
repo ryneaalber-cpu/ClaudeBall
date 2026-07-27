@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #12151a;
+  color: #edeae2;
+}
+
+/* Tabular figures everywhere a stat renders, so columns of numbers line up
+   like an actual box score instead of drifting with proportional widths. */
+.stat-figure {
+  font-variant-numeric: tabular-nums;
+}
