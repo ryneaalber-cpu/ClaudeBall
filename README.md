@@ -227,6 +227,17 @@ that comment predicted. Fixed in `toSearchParams`; verified by mocking
 `fetch` and inspecting the constructed URL directly, without needing
 network access to do it.
 
+A second, similar bug surfaced right after fixing the first: syncing a
+game's stat lines crashed with "Cannot read properties of undefined
+(reading 'abbreviation')." The assumed shape had each stat line's
+player carrying a nested `team` object; balldontlie's real `/stats`
+response instead puts `team` as a sibling of `player` on the stat line
+itself, with `player.team_id` as a plain number, not a nested object.
+Fixed by reading `stat.team.abbreviation` instead of
+`stat.player.team.abbreviation`; verified against the real response
+shape from balldontlie's own docs, which reproduced the exact reported
+error with the old code and resolved cleanly with the fix.
+
 ## Not a bug — a resource limit (and a fix that backfired)
 
 `npm run dev` also died silently at "Starting...", even after the fix

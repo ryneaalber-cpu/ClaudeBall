@@ -37,7 +37,10 @@ export interface ProviderPlayer {
    * no dual-eligibility concept here. That's set manually on our Player
    * model; see schema.prisma's comment on secondaryPosition. */
   position: string;
-  team: ProviderTeam;
+  /** Just an id here, not a nested team object — see ProviderStatLine.team
+   * for where the full team object (with .abbreviation) actually lives on
+   * a stat line. Confirmed against balldontlie's real response shape. */
+  team_id: number;
 }
 
 export interface ProviderGame {
@@ -54,6 +57,10 @@ export interface ProviderGame {
 export interface ProviderStatLine {
   id: number;
   player: ProviderPlayer;
+  /** The team the player was on for this stat line — a sibling of
+   * `player`, not nested inside it. This one has the full object
+   * (including .abbreviation); `player.team_id` is just a number. */
+  team: ProviderTeam;
   game: ProviderGame;
   /** Minutes as a string, e.g. "34" or "34:12" — use parseMinutes(). */
   min: string | null;

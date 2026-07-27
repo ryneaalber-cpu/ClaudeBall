@@ -42,7 +42,7 @@ async function upsertPlayerFromStatLine(stat: ProviderStatLine) {
       externalId: String(stat.player.id),
       firstName: stat.player.first_name,
       lastName: stat.player.last_name,
-      nbaTeam: stat.player.team.abbreviation,
+      nbaTeam: stat.team.abbreviation,
       // The provider gives one position string; map to our C/F/G enum as a
       // starting point. Multi-position strings (e.g. "F-C") take the first
       // letter — a commissioner can correct primary/secondary by hand
@@ -50,7 +50,7 @@ async function upsertPlayerFromStatLine(stat: ProviderStatLine) {
       primaryPosition: mapPosition(stat.player.position),
     },
     update: {
-      nbaTeam: stat.player.team.abbreviation,
+      nbaTeam: stat.team.abbreviation,
     },
   });
 }
