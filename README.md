@@ -210,6 +210,23 @@ the "actually get it running" step exists to catch, and it took
 catching it — no amount of additional code review would have found this
 one.
 
+## A real bug — the first time this code actually hit the live API
+
+`lib/stats-provider.ts` sent array-style filters (`dates`, `game_ids`,
+`team_ids`) as either a bare key or repeated keys —
+`dates=2026-02-01`, `game_ids=1&game_ids=2`. balldontlie's API actually
+requires bracket notation for all of these — `dates[]=2026-02-01`,
+`game_ids[]=1&game_ids[]=2` — confirmed directly against balldontlie's
+own example code. This file's own comments flagged the array-format
+question as unverified from the very first draft, since this sandbox
+has never had a way to make a live request against the real API to
+check ahead of time — the first real sync attempt, once actually run
+against production, was also the first time this code path had ever
+executed against balldontlie for real, and it surfaced the exact gap
+that comment predicted. Fixed in `toSearchParams`; verified by mocking
+`fetch` and inspecting the constructed URL directly, without needing
+network access to do it.
+
 ## Not a bug — a resource limit (and a fix that backfired)
 
 `npm run dev` also died silently at "Starting...", even after the fix

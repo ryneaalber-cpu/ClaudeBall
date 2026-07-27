@@ -6,13 +6,14 @@
  * header, endpoints under `/nba/v1/...`, responses shaped as
  * `{ data: [...], meta: { next_cursor, per_page } }`.
  *
- * One thing NOT independently verified (couldn't hit the live API from
- * this sandbox — no network access): the exact query-string format for
- * array filters like game_ids/player_ids on the /stats endpoint. This
- * file assumes repeated keys (`game_ids=1&game_ids=2`); if balldontlie
- * actually expects bracket notation (`game_ids[]=1`), that's a one-line
- * fix in `toSearchParams` below. Worth a quick check against
- * https://docs.balldontlie.io before you rely on it.
+ * Array-style filters (dates, game_ids, team_ids, player_ids) use
+ * bracket notation — `dates[]=...`, `game_ids[]=...` — confirmed
+ * directly against balldontlie's own example code. An earlier version
+ * of this file sent these as bare repeated keys instead, which is why
+ * the very first live sync attempt came back with a 400 from /games —
+ * this was flagged as unverified in this comment for a long time
+ * before that happened, since this sandbox has no way to make a live
+ * request against the real API to check ahead of time.
  *
  * Sign up for a free API key at https://app.balldontlie.io, then set
  * BALLDONTLIE_API_KEY in your .env.
@@ -88,12 +89,15 @@ function requireApiKey(): string {
   return key;
 }
 
-function toSearchParams(params: Record<string, string | number | number[] | undefined>): URLSearchParams {
+function toSearchParams(params: Record<string, string | number | (string | number)[] | undefined>): URLSearchParams {
   const search = new URLSearchParams();
   for (const [key, value] of Object.entries(params)) {
     if (value === undefined) continue;
     if (Array.isArray(value)) {
-      for (const v of value) search.append(key, String(v));
+      // balldontlie expects bracket notation for every array-style filter,
+      // confirmed against their own docs — `dates[]=...`, `game_ids[]=...`,
+      // not the bare repeated-key form used here before this fix.
+      for (const v of value) search.append(`${key}[]`, String(v));
     } else {
       search.set(key, String(value));
     }
@@ -103,7 +107,7 @@ function toSearchParams(params: Record<string, string | number | number[] | unde
 
 async function bdlFetch<T>(
   path: string,
-  params: Record<string, string | number | number[] | undefined> = {}
+  params: Record<string, string | number | (string | number)[] | undefined> = {}
 ): Promise<ProviderResponse<T>> {
   const url = `${BASE_URL}${path}?${toSearchParams(params).toString()}`;
   const res = await fetch(url, { headers: { Authorization: requireApiKey() } });
@@ -128,7 +132,7 @@ export function parseMinutes(raw: string | null): number {
 
 /** Games on a given date (YYYY-MM-DD). Paginate with the returned cursor if games.length hits per_page. */
 export async function fetchGamesByDate(date: string, cursor?: number) {
-  return bdlFetch<ProviderGame[]>("/games", { dates: date, cursor });
+  return bdlFetch<ProviderGame[]>("/games", { dates: [date], cursor });
 }
 
 /** All box-score stat lines for one or more games. */
