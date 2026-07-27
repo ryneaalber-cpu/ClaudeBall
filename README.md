@@ -267,6 +267,22 @@ dates in a multi-day sync as extra margin. Verified by mocking a
 3-game date and confirming exactly one `/stats` request went out with
 all three game ids batched into it, instead of three separate ones.
 
+A fourth bug, this one purely a code mistake with nothing environmental
+about it: the redesigned `contracts/actions.ts` shipped with `export
+const MAX_CONTRACT_YEARS` and `export function seasonLabelsFrom` sitting
+in a file marked `"use server"` — a rule that says files like that can
+only export `async` functions, since every runtime export has to be
+callable as a server action. Neither of those two were. The build
+failed outright with `Only async functions are allowed to be exported
+in a "use server" file`. The frustrating part: this exact constraint
+came up earlier in this project (while researching `maxDuration` for
+server actions) and was known going in — just not applied when writing
+this specific file. Fixed by moving both into `lib/season.ts`, which
+was already the right home for them anyway (`nextSeason` already lived
+there). Checked the other ten `"use server"` files in this project for
+the same mistake afterward — all clean, this was isolated to the one
+file.
+
 ## Not a bug — a resource limit (and a fix that backfired)
 
 `npm run dev` also died silently at "Starting...", even after the fix

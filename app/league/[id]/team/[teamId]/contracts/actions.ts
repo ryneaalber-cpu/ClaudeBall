@@ -4,9 +4,7 @@ import { revalidatePath } from "next/cache";
 import { notFound } from "next/navigation";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import { nextSeason } from "@/lib/season";
-
-export const MAX_CONTRACT_YEARS = 6;
+import { seasonLabelsFrom, MAX_CONTRACT_YEARS } from "@/lib/season";
 
 /** Same authorization shape as roster management: the team's own owner or the league commissioner. */
 async function assertCanManageContracts(leagueId: string, teamId: string) {
@@ -27,13 +25,6 @@ async function assertCanManageContracts(leagueId: string, teamId: string) {
   if (!isCommissioner && !isOwner) {
     throw new Error("Not authorized to manage this team's contracts");
   }
-}
-
-/** The MAX_CONTRACT_YEARS season labels a contract form should show, starting from the league's current season. */
-export function seasonLabelsFrom(currentSeason: string, count: number): string[] {
-  const labels = [currentSeason];
-  for (let i = 1; i < count; i++) labels.push(nextSeason(labels[i - 1]));
-  return labels;
 }
 
 /**

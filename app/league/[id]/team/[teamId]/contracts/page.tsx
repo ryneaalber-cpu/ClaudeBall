@@ -3,7 +3,8 @@ import Link from "next/link";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { resolveSalaryForSeason } from "@/lib/cap";
-import { setContract, removeContract, seasonLabelsFrom, MAX_CONTRACT_YEARS } from "./actions";
+import { seasonLabelsFrom, MAX_CONTRACT_YEARS } from "@/lib/season";
+import { setContract, removeContract } from "./actions";
 
 const CONTRACT_TYPE_LABEL: Record<string, string> = {
   STANDARD: "Standard",
