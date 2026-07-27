@@ -129,10 +129,16 @@ This is a **foundation**, not a finished product — see "What's here" and
   existed since early on, but nothing ever called it. Player search,
   drafting, and live scoring all read from tables this fills — without
   running it, they're empty, and every search anywhere in the app
-  returns nothing (which looks like a bug and isn't one). Pick a date
-  range (14 days max per run, to stay within balldontlie's rate limits)
-  and it pulls real games and box scores in. Use dates from the most
-  recently completed season for real final data.
+  returns nothing (which looks like a bug and isn't one). Enter any
+  date range, including a full season — `lib/date-chunks.ts` (pure,
+  validated) automatically splits anything longer than 14 days into
+  14-day pieces and syncs them one after another from the browser, so
+  one click covers a whole season instead of needing to manually repeat
+  the same form over a dozen times. Each piece still respects
+  balldontlie's rate limit and Vercel's per-request time limit — that
+  cap didn't go away, it's just handled automatically now instead of
+  being the user's problem. Use dates from the most recently completed
+  season for real final data.
 - **Schedule &amp; standings** — `/league/[id]/schedule` and
   `/league/[id]/standings`. The commissioner generates a season in one
   shot — `lib/schedule.ts` (pure, validated against a hand-worked
@@ -515,7 +521,7 @@ npm install
 cp .env.example .env         # fill in DATABASE_URL, AUTH_SECRET, BALLDONTLIE_API_KEY
 npm run db:push
 npm run db:seed              # creates a commissioner login from COMMISSIONER_EMAIL/PASSWORD env vars
-npm run validate:scoring     # optional — and validate:matchup / validate:draft / validate:cap / validate:schedule / validate:standings
+npm run validate:scoring     # optional — and validate:matchup / validate:draft / validate:cap / validate:schedule / validate:standings / validate:date-chunks
 npm run dev
 ```
 

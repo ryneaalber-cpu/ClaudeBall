@@ -16,7 +16,8 @@
     "validate:draft": "tsx lib/draft.validate.ts",
     "validate:cap": "tsx lib/cap.validate.ts",
     "validate:schedule": "tsx lib/schedule.validate.ts",
-    "validate:standings": "tsx lib/standings.validate.ts"
+    "validate:standings": "tsx lib/standings.validate.ts",
+    "validate:date-chunks": "tsx lib/date-chunks.validate.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
