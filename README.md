@@ -238,6 +238,20 @@ Fixed by reading `stat.team.abbreviation` instead of
 shape from balldontlie's own docs, which reproduced the exact reported
 error with the old code and resolved cleanly with the fix.
 
+A third bug followed right after upgrading to balldontlie's paid tier
+to unlock `/stats` at all: `429 Too Many Requests`. The sync made one
+`/stats` request *per game*, with no pacing between requests — a busy
+NBA night can have 10+ games, so a multi-day sync could burst well past
+even the paid tier's 60 requests/minute in a few seconds. Fixed by
+batching every game on a date into as few `/stats` requests as possible
+(balldontlie's `game_ids` filter accepts an array, confirmed against
+their docs), requesting the max page size to further cut request count,
+properly following pagination via `next_cursor` instead of silently
+dropping anything past the first page, and adding a small delay between
+dates in a multi-day sync as extra margin. Verified by mocking a
+3-game date and confirming exactly one `/stats` request went out with
+all three game ids batched into it, instead of three separate ones.
+
 ## Not a bug — a resource limit (and a fix that backfired)
 
 `npm run dev` also died silently at "Starting...", even after the fix

@@ -62,24 +62,44 @@ function mapPosition(raw: string): "C" | "F" | "G" {
   return "F"; // covers "F", "F-C", "F-G", and anything unrecognized
 }
 
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 /**
  * Syncs every game on a given date, plus the box score for each. Which
  * fantasy "game number" window a given real game belongs to isn't
  * decided here — see lib/matchup-scoring.ts, which computes each NBA
  * team's Nth game by date order at query time instead of relying on a
  * number assigned during sync.
+ *
+ * Stats for every game on the date are fetched together in as few
+ * requests as possible (balldontlie's game_ids filter accepts an
+ * array) rather than one request per game — a busy NBA night can have
+ * 10+ games, and firing that many requests back to back risks the
+ * rate limit regardless of tier.
  */
 export async function syncGamesForDate(date: string) {
   const { data: games } = await fetchGamesByDate(date);
 
   for (const game of games) {
     await upsertGame(game);
+  }
 
-    const { data: stats } = await fetchStatsForGames([game.id]);
+  if (games.length === 0) {
+    return { gamesProcessed: 0 };
+  }
+
+  const gameIds = games.map((g) => g.id);
+  let cursor: number | undefined;
+
+  do {
+    const { data: stats, meta } = await fetchStatsForGames(gameIds, cursor);
+
     for (const stat of stats) {
       const player = await upsertPlayerFromStatLine(stat);
       const dbGame = await prisma.game.findUniqueOrThrow({
-        where: { externalId: String(game.id) },
+        where: { externalId: String(stat.game.id) },
       });
 
       await prisma.playerGameLog.upsert({
@@ -111,7 +131,12 @@ export async function syncGamesForDate(date: string) {
         },
       });
     }
-  }
+
+    cursor = meta?.next_cursor;
+    // Only matters on an unusually busy date that needs a second page —
+    // a small pause here costs almost nothing but adds real safety margin.
+    if (cursor !== undefined) await sleep(1100);
+  } while (cursor !== undefined);
 
   return { gamesProcessed: games.length };
 }

@@ -86,6 +86,11 @@ export async function syncDateRange(
       const dateStr = d.toISOString().slice(0, 10);
       const result = await syncGamesForDate(dateStr);
       totalGames += result.gamesProcessed;
+      // Cheap insurance against the rate limit on longer ranges — each
+      // date is now 1-2 requests after batching games together in
+      // lib/sync.ts, but this costs only seconds and removes the risk
+      // entirely rather than relying on that margin alone.
+      if (i < totalDays - 1) await new Promise((resolve) => setTimeout(resolve, 1100));
     }
 
     revalidatePath(`/league/${leagueId}/settings`);

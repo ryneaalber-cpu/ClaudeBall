@@ -142,9 +142,11 @@ export async function fetchGamesByDate(date: string, cursor?: number) {
   return bdlFetch<ProviderGame[]>("/games", { dates: [date], cursor });
 }
 
-/** All box-score stat lines for one or more games. */
+/** All box-score stat lines for one or more games. Requests the max page
+ * size (100) since fewer, bigger pages means fewer requests overall —
+ * meaningful once rate limits are in play. */
 export async function fetchStatsForGames(gameIds: number[], cursor?: number) {
-  return bdlFetch<ProviderStatLine[]>("/stats", { game_ids: gameIds, cursor });
+  return bdlFetch<ProviderStatLine[]>("/stats", { game_ids: gameIds, cursor, per_page: 100 });
 }
 
 /** Players on a given NBA team (by provider team id). */
