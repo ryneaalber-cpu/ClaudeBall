@@ -13,21 +13,26 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
     Credentials({
       credentials: {
-        email: { label: "Email", type: "email" },
+        username: { label: "Username", type: "text" },
         password: { label: "Password", type: "password" },
       },
       authorize: async (credentials) => {
-        const email = credentials?.email as string | undefined;
+        const username = credentials?.username as string | undefined;
         const password = credentials?.password as string | undefined;
-        if (!email || !password) return null;
+        if (!username || !password) return null;
 
-        const user = await prisma.user.findUnique({ where: { email } });
+        const user = await prisma.user.findUnique({ where: { username } });
         if (!user) return null;
 
         const validPassword = await bcrypt.compare(password, user.passwordHash);
         if (!validPassword) return null;
 
-        return { id: user.id, name: user.name, email: user.email };
+        // Deliberately just the id — nothing else about the account is
+        // ever read from the session anywhere in this app (every page
+        // that needs a display name reads username straight from the
+        // database via Prisma), so there's no reason for email to even
+        // pass through here, let alone end up in the session.
+        return { id: user.id };
       },
     }),
   ],

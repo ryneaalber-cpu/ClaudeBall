@@ -9,7 +9,7 @@ export async function authenticate(
 ): Promise<string | undefined> {
   try {
     await signIn("credentials", {
-      email: formData.get("email"),
+      username: formData.get("username"),
       password: formData.get("password"),
       redirectTo: "/league",
     });
@@ -17,7 +17,7 @@ export async function authenticate(
     if (error instanceof AuthError) {
       switch (error.type) {
         case "CredentialsSignin":
-          return "Incorrect email or password.";
+          return "Incorrect username or password.";
         default:
           return "Something went wrong signing in.";
       }

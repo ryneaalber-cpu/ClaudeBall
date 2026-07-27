@@ -3,6 +3,7 @@ import Link from "next/link";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { AddTeamForm } from "./add-team-form";
+import { SignOutButton } from "@/components/sign-out-button";
 
 export default async function LeagueDashboard({
   params,
@@ -30,9 +31,12 @@ export default async function LeagueDashboard({
   return (
     <main className="min-h-screen bg-ink px-6 py-10 sm:px-12">
       <div className="mx-auto max-w-3xl">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted">
-          {league.currentSeason}
-        </p>
+        <div className="flex items-start justify-between">
+          <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted">
+            {league.currentSeason}
+          </p>
+          <SignOutButton />
+        </div>
         <h1 className="mt-2 font-display text-4xl font-semibold tracking-tight text-paper sm:text-5xl">
           {league.name}
         </h1>
@@ -93,7 +97,7 @@ export default async function LeagueDashboard({
                   {team.name}
                 </span>
                 <span className="font-mono text-xs text-muted">
-                  {team.owner.name}
+                  {team.owner.username}
                 </span>
               </Link>
             ))}

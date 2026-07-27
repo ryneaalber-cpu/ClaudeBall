@@ -19,11 +19,17 @@ export function AddTeamForm({ leagueId }: { leagueId: string }) {
       action={formAction}
       className="space-y-3 rounded-md bg-surface p-6 ring-1 ring-line"
     >
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="grid gap-3 sm:grid-cols-2">
         <FormField id="teamName" label="Team name" required />
-        <FormField id="ownerName" label="Owner name" required />
-        <FormField id="ownerEmail" label="Owner email" type="email" required />
+        <FormField id="ownerUsername" label="Owner's username" required />
       </div>
+      <p className="text-xs text-muted">
+        They need to have already created their own account at{" "}
+        <a href="/register" className="text-pos-forward hover:underline">
+          /register
+        </a>{" "}
+        — this just links a team to their existing username.
+      </p>
 
       {result && (
         <p

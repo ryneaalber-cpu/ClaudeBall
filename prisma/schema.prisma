@@ -34,9 +34,16 @@ enum Position {
   G
 }
 
+// Login and display both use `username`, not email — email is
+// collected at registration (in case it's ever needed for account
+// recovery) but is never shown anywhere in the app, to anyone,
+// including the commissioner. This is what actually lets someone join
+// a league by giving the commissioner just their username: there's
+// nothing else about their account the commissioner ever needs to
+// know or handle.
 model User {
   id           String   @id @default(cuid())
-  name         String
+  username     String   @unique
   email        String   @unique
   passwordHash String
   createdAt    DateTime @default(now())

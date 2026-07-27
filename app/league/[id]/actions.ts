@@ -1,16 +1,21 @@
 "use server";
 
-import bcrypt from "bcryptjs";
 import { revalidatePath } from "next/cache";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import { generateTempPassword } from "@/lib/temp-password";
 
 export interface AddTeamResult {
   status: "error" | "success";
   message: string;
 }
 
+/**
+ * Adds a team owned by an EXISTING account, looked up by username only
+ * — no email, no password to generate or relay. This only works once
+ * that person has registered themselves at /register; the commissioner
+ * never creates or sees anyone else's account here, just links a team
+ * to one that already exists.
+ */
 export async function addTeam(
   leagueId: string,
   _prevState: AddTeamResult | undefined,
@@ -29,25 +34,18 @@ export async function addTeam(
   }
 
   const teamName = formData.get("teamName") as string;
-  const ownerName = formData.get("ownerName") as string;
-  const ownerEmail = formData.get("ownerEmail") as string;
+  const ownerUsername = ((formData.get("ownerUsername") as string) || "").trim();
 
-  if (!teamName || !ownerName || !ownerEmail) {
+  if (!teamName || !ownerUsername) {
     return { status: "error", message: "Fill in every field." };
   }
 
-  let owner = await prisma.user.findUnique({ where: { email: ownerEmail } });
-  let tempPassword: string | undefined;
-
+  const owner = await prisma.user.findUnique({ where: { username: ownerUsername } });
   if (!owner) {
-    tempPassword = generateTempPassword();
-    owner = await prisma.user.create({
-      data: {
-        name: ownerName,
-        email: ownerEmail,
-        passwordHash: await bcrypt.hash(tempPassword, 10),
-      },
-    });
+    return {
+      status: "error",
+      message: `No account found for username "${ownerUsername}" — ask them to register at /register first, then try again.`,
+    };
   }
 
   await prisma.leagueMembership.upsert({
@@ -62,13 +60,8 @@ export async function addTeam(
 
   revalidatePath(`/league/${leagueId}`);
 
-  return tempPassword
-    ? {
-        status: "success",
-        message: `Added ${teamName}. ${ownerName}'s temporary password is "${tempPassword}" — share it with them directly; it won't be shown again.`,
-      }
-    : {
-        status: "success",
-        message: `Added ${teamName}, owned by the existing account for ${ownerEmail}.`,
-      };
+  return {
+    status: "success",
+    message: `Added ${teamName}, owned by ${ownerUsername}.`,
+  };
 }

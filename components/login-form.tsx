@@ -25,7 +25,7 @@ export function LoginForm() {
       </div>
 
       <div className="space-y-3">
-        <FormField id="email" label="Email" type="email" required />
+        <FormField id="username" label="Username" required />
         <FormField id="password" label="Password" type="password" required />
       </div>
 
@@ -42,6 +42,13 @@ export function LoginForm() {
       >
         {isPending ? "Signing in…" : "Sign in"}
       </button>
+
+      <p className="text-center text-sm text-muted">
+        New here?{" "}
+        <a href="/register" className="text-pos-forward hover:underline">
+          Create an account
+        </a>
+      </p>
     </form>
   );
 }

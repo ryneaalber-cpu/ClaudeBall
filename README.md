@@ -40,21 +40,32 @@ This is a **foundation**, not a finished product — see "What's here" and
 - **Auth** — `auth.config.ts` (Edge-safe, no database code) and `auth.ts`
   (the full setup, database-backed credentials) together back the login
   page and `middleware.ts`, which protects every route except `/login`
-  and the one-time `/setup`. `app/page.tsx` sends the bare root address
-  to `/league` if you're signed in, `/login` if not — there wasn't a
-  page there at all before, which is a legitimate 404 rather than a
-  broken one, but a confusing front door regardless. Credentials-based
-  (email/password), no public sign-up — this is a private league, so
-  the first account comes from `/setup` (or `npm run db:seed` if you
-  have a terminal) and every account after that gets created by the
-  commissioner from the "Add team" form, not self-registration.
+  and `/register`. `app/page.tsx` sends the bare root address to
+  `/league` if you're signed in, `/login` if not — there wasn't a page
+  there at all before, which is a legitimate 404 rather than a broken
+  one, but a confusing front door regardless. Credentials-based, but
+  login is by **username**, not email — email is collected at
+  registration and stored, but never displayed anywhere in the app to
+  anyone, including the commissioner. Anyone can create their own
+  account at `/register` with a username, email, and password they
+  choose themselves; the commissioner only ever needs someone's
+  username to add them to a team (see "Add team" below) — nothing else
+  about their account passes through the commissioner at all. A
+  **Sign out** button (`components/sign-out-button.tsx`) lives on the
+  league dashboard and the create-league page — added after a real
+  incident where clearing test accounts directly in the database left
+  a browser holding a still-valid session for a user that no longer
+  existed (sessions here are JWT-based, so they're not re-checked
+  against the database on every request); signing out properly clears
+  that, where incognito mode had been the only workaround before.
 - **League + team setup** — `/league/new` creates a league (seeding
   default scoring weights and position pools from the same constants the
   scoring engine and demo page use, so there's one source of truth, not
   three copies to keep in sync). `/league/[id]` is the dashboard: team
-  list plus a commissioner-only "add team" form that creates the owner's
-  account on the spot (with a one-time temp password to relay to them)
-  if they don't have one yet.
+  list plus a commissioner-only "add team" form that links a team to an
+  owner's *existing* account by username — no name, no email, and no
+  account creation happening here at all; the owner has to have already
+  registered themselves first.
 - **Roster building** — `/league/[id]/team/[teamId]` — search synced
   players by name, add them to a team, reorder priority with ↑/↓, or
   remove them. This priority order is exactly what
@@ -129,10 +140,15 @@ This is a **foundation**, not a finished product — see "What's here" and
   amount. Turning it off doesn't delete anyone's contracts — salaries
   stay on record, they just stop being shown as a hard limit on the
   contracts and trade pages.
-- **`/setup`** — creates the very first account without needing a
-  terminal or `npm run db:seed`. Only reachable while the database has
-  zero users; once one exists, it just points to `/login`. This is what
-  makes the whole deployment flow below work without a CLI.
+- **`/register`** — self-registration, open to anyone, any time. Picks
+  a username (the only thing a commissioner will ever need from them),
+  an email (private, stored for account recovery only, never displayed
+  anywhere), and a password they choose themselves — validated by
+  `lib/account-validation.ts` (pure, validated). Replaced an earlier
+  version of this app where only the commissioner could create
+  accounts, with a system-generated temp password that had to be
+  relayed by hand; `/setup`, the old one-time-only first-account
+  bootstrap, now just redirects here.
 - **Data sync trigger** — `/league/[id]/settings` — the actual missing
   piece that made testing anything else impossible: `lib/sync.ts` has
   existed since early on, but nothing ever called it. Player search,
@@ -467,12 +483,12 @@ This is the actual "does it work" moment, and it happens on
    3000). Either opens a new browser tab with the actual site in it —
    you should land on the login page. **This is the first time any of
    this has actually executed — everything before now was reviewed,
-   not run.** Go to that tab's `/setup` path (add `/setup` to the end
-   of the address bar URL) and create your account — this writes to
+   not run.** Go to that tab's `/register` path (add `/register` to the
+   end of the address bar URL) and create your account — this writes to
    the real Neon database from step 1, so it carries over once deployed
    for real, no need to do it twice. If step 7 never got this far,
-   that's fine too — do this same `/setup` step on the live Vercel URL
-   instead, once you reach the end of the next section.
+   that's fine too — do this same `/register` step on the live Vercel
+   URL instead, once you reach the end of the next section.
 9. Save the code to GitHub permanently — even if step 7 never fully
    worked in this Codespace. That's fine: this step doesn't build or
    run anything, just uploads files, and the build that actually
@@ -506,10 +522,10 @@ surface, and I can fix it directly.
    `package.json`), so there's no separate manual step — Vercel's build
    log will show it happening.
 5. Vercel gives you a live URL. If you already created your account at
-   `/setup` back in the Codespace, log in there now — same database,
+   `/register` back in the Codespace, log in there now — same database,
    same account, nothing new to create. If that step never worked in
    the Codespace, do it now instead: visit that same live URL's
-   `/setup` path and create your account there — same result either
+   `/register` path and create your account there — same result either
    way, just a different place to have done it.
 
 From here, every `git push` to this repo redeploys automatically.

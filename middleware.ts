@@ -17,11 +17,11 @@ import { authConfig } from "./auth.config";
  */
 export const { auth: middleware } = NextAuth(authConfig);
 
-// Everything requires sign-in except the login page, the one-time /setup
-// page (unreachable by definition once an account exists — see
-// app/setup/page.tsx), the auth API routes, and Next's own static
+// Everything requires sign-in except the login page, /register (where
+// anyone creates their own account), the /setup redirect that points
+// old links at /register, the auth API routes, and Next's own static
 // assets. Add more public paths here if you end up wanting something
 // publicly viewable (e.g. read-only standings).
 export const config = {
-  matcher: ["/((?!api/auth|_next/static|_next/image|favicon.ico|login|setup).*)"],
+  matcher: ["/((?!api/auth|_next/static|_next/image|favicon.ico|login|register|setup).*)"],
 };
