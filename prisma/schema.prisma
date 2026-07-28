@@ -110,11 +110,16 @@ model PositionPool {
 }
 
 model Team {
-  id       String @id @default(cuid())
-  league   League @relation(fields: [leagueId], references: [id])
+  id       String  @id @default(cuid())
+  league   League  @relation(fields: [leagueId], references: [id])
   leagueId String
-  owner    User   @relation(fields: [ownerId], references: [id])
-  ownerId  String
+  // Nullable on purpose: a team's real roster and contracts can be
+  // imported before the person who'll actually run it has registered.
+  // "Unclaimed" (owner is null) is a real, first-class state, not an
+  // error — see claimTeam in league/[id]/actions.ts for how a
+  // commissioner attaches a real owner once that username exists.
+  owner   User?   @relation(fields: [ownerId], references: [id])
+  ownerId String?
   name     String
 
   rosterEntries RosterEntry[]

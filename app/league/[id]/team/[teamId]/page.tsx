@@ -68,7 +68,9 @@ export default async function TeamRosterPage({
         <h1 className="mt-2 font-display text-4xl font-semibold tracking-tight text-paper sm:text-5xl">
           {team.name}
         </h1>
-        <p className="mt-1 text-sm text-muted">Owned by {team.owner.username}</p>
+        <p className="mt-1 text-sm text-muted">
+          {team.owner ? `Owned by ${team.owner.username}` : "Unclaimed — no owner yet"}
+        </p>
         <div className="mt-2 flex gap-4">
           <Link
             href={`/league/${leagueId}/team/${teamId}/matchup`}

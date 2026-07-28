@@ -153,3 +153,12 @@ export async function fetchStatsForGames(gameIds: number[], cursor?: number) {
 export async function fetchPlayersByTeam(teamId: number, cursor?: number) {
   return bdlFetch<ProviderPlayer[]>("/players", { team_ids: [teamId], cursor });
 }
+
+/** Searches players by name directly — unlike games/stats, this doesn't
+ * require the player to have appeared in any synced box score, which is
+ * exactly the gap for a current-season rookie: they're on a real NBA
+ * roster right now but never played in whatever completed season got
+ * synced in, so they'd never show up from that data alone. */
+export async function fetchPlayersBySearch(search: string, cursor?: number) {
+  return bdlFetch<ProviderPlayer[]>("/players", { search, cursor });
+}

@@ -21,14 +21,15 @@ export function AddTeamForm({ leagueId }: { leagueId: string }) {
     >
       <div className="grid gap-3 sm:grid-cols-2">
         <FormField id="teamName" label="Team name" required />
-        <FormField id="ownerUsername" label="Owner's username" required />
+        <FormField id="ownerUsername" label="Owner's username (optional)" />
       </div>
       <p className="text-xs text-muted">
-        They need to have already created their own account at{" "}
+        Leave the username blank to add the team unclaimed for now — you
+        can attach a real owner later once they&apos;ve registered at{" "}
         <a href="/register" className="text-pos-forward hover:underline">
           /register
-        </a>{" "}
-        — this just links a team to their existing username.
+        </a>
+        .
       </p>
 
       {result && (

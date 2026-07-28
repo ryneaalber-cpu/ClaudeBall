@@ -2677,14 +2677,16 @@
         ]
       },
       {
-        "position": "GF",
-        "name": "Daeqwon Plowden",
-        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79950/daeqwon-plowden",
+        "position": "F",
+        "name": "Koa Peat",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107938/koa-peat",
         "contractType": "STANDARD",
-        "restriction": "UFA",
+        "restriction": "RFA",
         "salaryYears": [
-          2449421.0,
-          2664401.0
+          2926800.0,
+          3073080.0,
+          3219840.0,
+          5811811.0
         ]
       },
       {
@@ -2707,19 +2709,6 @@
         "restriction": "RFA",
         "salaryYears": [
           2411090.0
-        ]
-      },
-      {
-        "position": "F",
-        "name": "Koa Peat",
-        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107938/koa-peat",
-        "contractType": "STANDARD",
-        "restriction": "RFA",
-        "salaryYears": [
-          2926800.0,
-          3073080.0,
-          3219840.0,
-          5811811.0
         ]
       }
     ],
@@ -2757,16 +2746,8 @@
         "description": "Round 1 (PHI)"
       },
       {
-        "year": 2028,
-        "description": "Round 2 (UTA)"
-      },
-      {
         "year": 2029,
         "description": "Round 1 (LAL)"
-      },
-      {
-        "year": 2029,
-        "description": "Round 2 (LAL)"
       }
     ]
   },
@@ -4319,7 +4300,9 @@
         "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8066/kawhi-leonard",
         "contractType": "STANDARD",
         "restriction": "UFA",
-        "salaryYears": []
+        "salaryYears": [
+          50300000.0
+        ]
       },
       {
         "position": "F",
@@ -5502,13 +5485,17 @@
           2150917.0,
           2525901.0
         ]
+      },
+      {
+        "position": "F",
+        "name": "Tyler Bilodeau",
+        "spotracUrl": null,
+        "contractType": null,
+        "restriction": null,
+        "salaryYears": []
       }
     ],
     "draftPicks": [
-      {
-        "year": 2026,
-        "description": "Pick 44"
-      },
       {
         "year": 2028,
         "description": "Round 1 (MIA)"
@@ -6342,13 +6329,20 @@
         "contractType": "UNSIGNED_PICK",
         "restriction": null,
         "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Daeqwon Plowden",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79950/daeqwon-plowden",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0,
+          2664401.0
+        ]
       }
     ],
     "draftPicks": [
-      {
-        "year": 2026,
-        "description": "Pick 41"
-      },
       {
         "year": 2027,
         "description": "Round 2 (WAS)"
@@ -6388,6 +6382,14 @@
       {
         "year": 2029,
         "description": "Round 2 (WAS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (UTA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (LAL)"
       }
     ]
   }

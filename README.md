@@ -182,9 +182,18 @@ This is a **foundation**, not a finished product — see "What's here" and
   applies just as much here: 30 teams' worth of database writes in one
   request would risk the same Vercel timeout, so the browser calls the
   import once per team in sequence instead of all at once.
-  Commissioner-only, and each team needs a username that's already
-  registered — this can't create accounts on someone's behalf, only
-  link a team to one that already exists.
+  Commissioner-only. Team ownership is optional at import time on
+  purpose — `Team.ownerId` is nullable (a real, later schema change:
+  it started out required, which meant every one of the 30 teams was
+  blocked on that specific person having already registered before any
+  of their real roster or contracts could exist at all). A blank or
+  not-yet-registered username just imports that team unclaimed instead
+  of blocking the rest of the batch — real roster and contracts exist
+  immediately, ownership attaches whenever that person actually
+  registers, via a **Claim** form next to any unclaimed team on the
+  league dashboard (`claimTeam` in `league/[id]/actions.ts`). One click
+  imports all 30 regardless of how many usernames are actually filled
+  in.
 - **Schedule &amp; standings** — `/league/[id]/schedule` and
   `/league/[id]/standings`. The commissioner generates a season in one
   shot — `lib/schedule.ts` (pure, validated against a hand-worked
@@ -261,6 +270,51 @@ which run in the full Node.js runtime). This is exactly the kind of bug
 the "actually get it running" step exists to catch, and it took
 catching it — no amount of additional code review would have found this
 one.
+
+## Three real bugs — found once the import was actually used
+
+Running the real import surfaced three genuine issues, all traceable
+to the same root cause: the extraction and import were reviewed
+carefully, but this was the first time any of it ran against the real
+spreadsheet with a human actually checking the output against what
+they knew it should say.
+
+**Kawhi Leonard's contract went missing entirely.** His salary cell in
+the source sheet wasn't a plain number — it was a formula
+(`=50300000`). Reading the workbook without `data_only=True` returns a
+formula's literal text, not its calculated value, so the extractor saw
+the string `"=50300000"`, correctly recognized it wasn't a number, and
+silently dropped it — contract type and UFA status came through fine,
+salary didn't. Re-extracted with `data_only=True`, plus a warning pass
+that flags any player with a contract type but zero salary years
+instead of accepting that combination silently. That pass caught one
+other real bug (a blank contract-type cell was defaulting to
+`STANDARD` instead of no contract at all — fixed) and one genuine gap
+in the source data itself, not fixable by better parsing (a player
+whose sheet row has a contract type and UFA status but no salary
+number ever entered).
+
+**Positions didn't match the spreadsheet.** The import matched players
+by name but never actually read the spreadsheet's own position
+column — a rostered player's position was left as whatever
+balldontlie's sync had already set, not the league's own
+dual-eligibility tag ("GF", "FC", etc.), which is exactly the kind of
+commissioner-curated data `Player.secondaryPosition` was built to
+hold. Fixed: every matched (or newly-created) player's position is now
+set from `lib/nfba-import.ts`'s `parsePosition`, which the spreadsheet
+actually wins over the stats provider's own label.
+
+**2026 rookies were just skipped.** Anyone who hadn't played in the
+synced regular season — true of every incoming rookie by definition —
+had no matching Player record at all, so they landed in "not found"
+instead of on a roster. Fixed with a live fallback: an unmatched name
+now gets looked up directly via balldontlie's player search
+(`fetchPlayersBySearch`, matching on last name via
+`guessSearchTerm` — skips Jr./Sr./numeral suffixes to find the real
+last name — then verified against the full name), and created on the
+spot if found. Only genuinely not-found names — a real typo, or
+someone not yet in balldontlie's database at all — still end up
+unmatched.
 
 ## A real bug — the first time this code actually hit the live API
 

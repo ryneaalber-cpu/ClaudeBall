@@ -3,6 +3,7 @@ import Link from "next/link";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { AddTeamForm } from "./add-team-form";
+import { ClaimTeamForm } from "./claim-team-form";
 import { SignOutButton } from "@/components/sign-out-button";
 
 export default async function LeagueDashboard({
@@ -88,18 +89,26 @@ export default async function LeagueDashboard({
               </p>
             )}
             {league.teams.map((team) => (
-              <Link
+              <div
                 key={team.id}
-                href={`/league/${league.id}/team/${team.id}`}
-                className="flex items-center justify-between border-b border-line bg-surface px-4 py-3 transition last:border-b-0 hover:bg-surfaceRaised"
+                className="flex items-center justify-between gap-3 border-b border-line bg-surface px-4 py-3 last:border-b-0"
               >
-                <span className="text-sm font-medium text-paper">
+                <Link
+                  href={`/league/${league.id}/team/${team.id}`}
+                  className="flex-1 truncate text-sm font-medium text-paper transition hover:underline"
+                >
                   {team.name}
-                </span>
-                <span className="font-mono text-xs text-muted">
-                  {team.owner.username}
-                </span>
-              </Link>
+                </Link>
+                {team.owner ? (
+                  <span className="font-mono text-xs text-muted">
+                    {team.owner.username}
+                  </span>
+                ) : isCommissioner ? (
+                  <ClaimTeamForm leagueId={league.id} teamId={team.id} />
+                ) : (
+                  <span className="font-mono text-xs text-muted">Unclaimed</span>
+                )}
+              </div>
             ))}
           </div>
         </section>

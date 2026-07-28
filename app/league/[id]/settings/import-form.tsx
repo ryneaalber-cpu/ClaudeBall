@@ -43,23 +43,59 @@ const TEAM_DISPLAY_NAMES: Record<string, string> = {
   WAS: "Washington Wizards",
 };
 
+// Pre-filled from the real username list already collected — anyone not
+// registered yet just imports unclaimed instead of blocking the batch;
+// see claimTeam on the dashboard for attaching them once they are.
+const KNOWN_USERNAMES: Record<string, string> = {
+  ATL: "MamaBearNoMilk",
+  BOS: "simon741",
+  BKN: "DaKid",
+  CHA: "aceing",
+  CHI: "vlad3",
+  CLE: "Celine75",
+  DAL: "DALLASBob",
+  DEN: "AlexDenver",
+  DET: "clemfandango",
+  GSW: "GunnerHM",
+  HOU: "Stripesteezy",
+  IND: "Haliburner777",
+  LAL: "sammyg123",
+  MEM: "ScottKD",
+  MIA: "Prodigy_Mayd",
+  MIL: "TriggsB",
+  MIN: "phatbobby",
+  NOP: "Manchu504",
+  NYK: "mazmaz",
+  OKC: "doyouknowjack",
+  ORL: "RyneA",
+  PHI: "robalber",
+  PHO: "edoardo_gandino",
+  POR: "sadmcbain",
+  SAC: "Chi_city",
+  SAS: "Dagabs",
+  SEA: "Sceddy",
+  TOR: "noflyzone35",
+  UTA: "oddi",
+  WAS: "cameronmunn18",
+};
+
 export function ImportForm({ leagueId }: { leagueId: string }) {
-  const [usernames, setUsernames] = useState<Record<string, string>>({});
+  const [usernames, setUsernames] = useState<Record<string, string>>(KNOWN_USERNAMES);
   const [isRunning, setIsRunning] = useState(false);
   const [progress, setProgress] = useState<{ current: number; total: number } | null>(null);
   const [results, setResults] = useState<ImportTeamResult[]>([]);
 
-  const teamsToImport = TEAM_NAMES.filter((t) => usernames[t]?.trim());
-
   async function runImport() {
-    if (teamsToImport.length === 0) return;
     setIsRunning(true);
     setResults([]);
 
-    for (let i = 0; i < teamsToImport.length; i++) {
-      const team = teamsToImport[i];
-      setProgress({ current: i + 1, total: teamsToImport.length });
-      const result = await importTeam(leagueId, team, usernames[team]);
+    // Every team gets imported, whether or not a username is filled in —
+    // a blank or not-yet-registered username just leaves that team
+    // unclaimed rather than blocking the rest of the batch.
+    for (let i = 0; i < TEAM_NAMES.length; i++) {
+      const team = TEAM_NAMES[i];
+      setProgress({ current: i + 1, total: TEAM_NAMES.length });
+      const result = await importTeam(leagueId, team, usernames[team] ?? "");
       setResults((prev) => [...prev, result]);
     }
 
@@ -74,12 +110,16 @@ export function ImportForm({ leagueId }: { leagueId: string }) {
           Import real teams
         </h2>
         <p className="mt-1 text-xs text-muted">
-          Fill in a username for whichever teams you have real accounts
-          for — leave the rest blank and come back to them later, nothing
-          has to happen all at once. Each team creates the roster and
-          contracts from the spreadsheet, matched against players
-          already synced in; anyone who doesn&apos;t match gets listed at
-          the end instead of silently skipped.
+          Pre-filled with the usernames already collected — edit or clear
+          any of them first if something&apos;s changed. One click imports
+          all 30: real roster and contracts for every team either way,
+          matched against players already synced in — and for anyone not
+          in that data yet (a 2026 rookie who hasn&apos;t played an NBA
+          game, mainly), looked up live and added on the spot instead of
+          just being skipped. Anyone whose username isn&apos;t registered
+          yet just imports unclaimed instead of blocking the rest —
+          attach the real owner later from the league dashboard once
+          they&apos;ve registered.
         </p>
       </div>
 
@@ -99,7 +139,7 @@ export function ImportForm({ leagueId }: { leagueId: string }) {
               value={usernames[team] ?? ""}
               onChange={(e) => setUsernames((prev) => ({ ...prev, [team]: e.target.value }))}
               disabled={isRunning}
-              placeholder="username"
+              placeholder="username (optional)"
               className="w-full rounded-sm border border-line bg-ink px-2 py-1 text-xs text-paper outline-none focus:border-pos-forward disabled:opacity-50"
             />
           </div>
@@ -109,12 +149,12 @@ export function ImportForm({ leagueId }: { leagueId: string }) {
       <button
         type="button"
         onClick={runImport}
-        disabled={isRunning || teamsToImport.length === 0}
+        disabled={isRunning}
         className="rounded-sm bg-pos-forward px-4 py-2 text-sm font-semibold text-ink transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
       >
         {isRunning && progress
           ? `Importing… (${progress.current}/${progress.total})`
-          : `Import ${teamsToImport.length || ""} team${teamsToImport.length === 1 ? "" : "s"}`.trim()}
+          : "Import all 30 teams"}
       </button>
 
       {results.length > 0 && (
