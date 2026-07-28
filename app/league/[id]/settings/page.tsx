@@ -4,6 +4,7 @@ import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 import { updateCapSettings } from "./actions";
 import { SyncForm } from "./sync-form";
+import { ImportForm } from "./import-form";
 
 export default async function LeagueSettingsPage({
   params,
@@ -49,6 +50,10 @@ export default async function LeagueSettingsPage({
 
         <div className="mt-8">
           <SyncForm leagueId={leagueId} />
+        </div>
+
+        <div className="mt-6">
+          <ImportForm leagueId={leagueId} />
         </div>
 
         <form

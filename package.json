@@ -19,7 +19,8 @@
     "validate:standings": "tsx lib/standings.validate.ts",
     "validate:date-chunks": "tsx lib/date-chunks.validate.ts",
     "validate:season": "tsx lib/season.validate.ts",
-    "validate:account-validation": "tsx lib/account-validation.validate.ts"
+    "validate:account-validation": "tsx lib/account-validation.validate.ts",
+    "validate:nfba-import": "tsx lib/nfba-import.validate.ts"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

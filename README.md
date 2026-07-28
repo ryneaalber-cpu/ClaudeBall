@@ -164,6 +164,27 @@ This is a **foundation**, not a finished product — see "What's here" and
   cap didn't go away, it's just handled automatically now instead of
   being the user's problem. Use dates from the most recently completed
   season for real final data.
+- **Real league import** — `/league/[id]/settings` — imports the
+  league's actual 30 teams, 512 players, and their real contracts
+  straight from a spreadsheet the commissioner already maintained,
+  instead of re-entering all of it by hand through the roster and
+  contract forms. The data itself was pulled once from the source
+  Google Sheet (including the real Spotrac link on every player,
+  confirmed to actually exist as clickable hyperlinks, not just visible
+  text) and is baked into the project as `lib/nfba-import-data.json` —
+  this isn't a live, ongoing spreadsheet sync, just a one-time
+  extraction. Player names are matched against whatever's already been
+  synced from balldontlie (`lib/nfba-import.ts`, pure, validated against
+  real edge cases — periods, apostrophes, hyphens all pulled from actual
+  names in the data); anyone who doesn't match gets listed at the end
+  rather than silently dropped. One team per request, same reasoning as
+  the season sync — a real gap discovered doing the season sync earlier
+  applies just as much here: 30 teams' worth of database writes in one
+  request would risk the same Vercel timeout, so the browser calls the
+  import once per team in sequence instead of all at once.
+  Commissioner-only, and each team needs a username that's already
+  registered — this can't create accounts on someone's behalf, only
+  link a team to one that already exists.
 - **Schedule &amp; standings** — `/league/[id]/schedule` and
   `/league/[id]/standings`. The commissioner generates a season in one
   shot — `lib/schedule.ts` (pure, validated against a hand-worked
@@ -562,7 +583,7 @@ npm install
 cp .env.example .env         # fill in DATABASE_URL, AUTH_SECRET, BALLDONTLIE_API_KEY
 npm run db:push
 npm run db:seed              # creates a commissioner login from COMMISSIONER_EMAIL/PASSWORD env vars
-npm run validate:scoring     # optional — and validate:matchup / validate:draft / validate:cap / validate:schedule / validate:standings / validate:date-chunks
+npm run validate:scoring     # optional — and validate:matchup / validate:draft / validate:cap / validate:schedule / validate:standings / validate:date-chunks / validate:season / validate:account-validation / validate:nfba-import
 npm run dev
 ```
 

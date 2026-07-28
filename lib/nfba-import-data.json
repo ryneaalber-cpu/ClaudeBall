@@ -1,0 +1,6394 @@
+{
+  "ATL": {
+    "players": [
+      {
+        "position": "G",
+        "name": "LaMelo Ball",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70645/lamelo-ball",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          40770520.0,
+          43582280.0,
+          46394040.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Donovan Clingan",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91735/donovan-clingan",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7519920.0,
+          9550298.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Darius Garland",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31562/darius-garland",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          42166510.0,
+          44886930.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "RJ Barrett",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31560/rj-barrett",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          29616071.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "DeMar DeRozan",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6327/demar-derozan",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Donte DiVincenzo",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26983/donte-divincenzo",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          12535000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Sam Merrill",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70702/sam-merrill",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9160715.0,
+          9839285.0,
+          10517856.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Aaron Nesmith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70656/aaron-nesmith",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          11000000.0,
+          19418000.0,
+          20971440.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Luka Garza",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74159/luka-garza",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2801346.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Vit Krejci",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70679/vit-krejci",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2667944.0,
+          3005085.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Mouhamed Gueye",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84468/mouhamed-gueye",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Mike Conley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/2532/mike-conley",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Baylor Scheierman",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91780/baylor-scheierman",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2744040.0,
+          4952993.0
+        ]
+      },
+      {
+        "position": "CF",
+        "name": "E.J. Liddell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78129/ej-liddell",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "KJ Simpson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91788/kj-simpson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Nicolas Batum",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6149/nicolas-batum",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Drew Peterson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/85837/drew-peterson",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Nikola Djurisic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/92954/nikola-djurisic",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Meleek Thomas",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107945/meleek-thomas",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          1357763.0,
+          2294370.0,
+          2694363.0,
+          2918152.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 37"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (ATL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (ATL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (ATL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (ATL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (UTA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (ATL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (ATL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (NYK)"
+      }
+    ]
+  },
+  "BOS": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Karl-Anthony Towns",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17829/karl-anthony-towns",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          57078728.0,
+          61015192.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Devin Booker",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17841/devin-booker",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          57078728.0,
+          61015192.0,
+          63669550.0,
+          68763114.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Nikola Vucevic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8067/nikola-vucevic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Aaron Gordon",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15356/aaron-gordon",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          31978037.0,
+          34536280.0,
+          37094523.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Dillon Brooks",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23646/dillon-brooks",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20992727.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jaxson Hayes",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31565/jaxson-hayes",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0,
+          6000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Tim Hardaway Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13337/tim-hardaway-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6065000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jaylen Wells",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93952/jaylen-wells",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2296271.0,
+          2486995.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Kris Murray",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82275/kris-murray",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5315000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Hannes Steinbach",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107931/hannes-steinbach",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5227200.0,
+          5488560.0,
+          5750160.0,
+          8515987.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Drake Powell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98620/drake-powell",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3540600.0,
+          3709320.0,
+          6101832.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Gary Harris",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15371/gary-harris",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3815861.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Isaiah Livers",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74149/isaiah-livers",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Alijah Martin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98642/alijah-martin",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2185116.0,
+          2571895.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Bobi Klintman",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91764/bobi-klintman",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Kevon Harris",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70771/kevon-harris",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Bol Bol",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31603/bol-bol",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 45"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 55"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (BOS)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (BOS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (BOS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (BOS)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (BOS)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (BOS)"
+      }
+    ]
+  },
+  "BKN": {
+    "players": [
+      {
+        "position": "FC",
+        "name": "Giannis Antetokounmpo",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13328/giannis-antetokounmpo",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          58456566.0,
+          62786682.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ayo Dosunmu",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74145/ayo-dosunmu",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          19310345.0,
+          20855173.0,
+          22400001.0,
+          23944829.0,
+          25489652.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Rudy Gobert",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13340/rudy-gobert",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          36500000.0,
+          38000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Shaedon Sharpe",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78113/shaedon-sharpe",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20089287.0,
+          21696429.0,
+          23303571.0,
+          24910713.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jalen Green",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74109/jalen-green",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          36251166.0,
+          36000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Julian Reese",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/101322/julian-reese",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Kelly Oubre Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17843/kelly-oubre-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8050000.0,
+          8450000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Toumani Camara",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84478/toumani-camara",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          18080358.0,
+          19526786.0,
+          20973214.0,
+          22419642.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Rocco Zikarsky",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99259/rocco-zikarsky",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Caleb Love",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99629/caleb-love",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Joan Beringer",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98624/joan-beringer",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4411200.0,
+          4621200.0,
+          7098163.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Noah Penda",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98630/noah-penda",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Nate Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/80003/jeenathan-williams",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Rasheer Fleming",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98617/rasheer-fleming",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Terrence Shannon Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91774/terrence-shannon-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2801640.0,
+          5054159.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Vladislav Goldin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99644/vladislav-goldin",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Andre Jackson Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82321/andre-jackson-jr",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 20"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 50"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (BKN)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (BKN)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (BKN)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (BKN)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (DAL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (BKN)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (BKN)"
+      }
+    ]
+  },
+  "CHA": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Jamal Murray",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20212/jamal-murray",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          50105628.0,
+          53817156.0,
+          57528684.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Trae Young",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26971/trae-young",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          49488300.0,
+          50478066.0,
+          54437130.0,
+          58396194.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kyshawn George",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91765/kyshawn-george",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3108000.0,
+          5434892.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Dylan Cardwell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99643/dylan-cardwell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Zach LaVine",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15365/zach-lavine",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          48967380.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Oso Ighodaro",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93953/oso-ighodaro",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2296271.0,
+          2486995.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Herbert Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74142/herb-jones",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14898786.0,
+          20858300.0,
+          22526964.0,
+          24195628.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Steven Adams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13325/steven-adams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13000000.0,
+          11869565.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jericho Sims",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74166/jericho-sims",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2801346.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jordan Clarkson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15398/jordan-clarkson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Tolu Smith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95591/tolu-smith-iii",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2411090.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Sion James",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98641/sion-james",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2411090.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Larry Nance Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17855/larry-nance-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jonathan Mogbo",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/92956/jonathan-mogbo",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Pacome Dadiet",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91782/pacome-dadiet",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2983680.0,
+          5373608.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Dante Exum",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15357/dante-exum",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Tarik Biberovic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84482/tarik-biberovic",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3000000.0,
+          3000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ben Simmons",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20206/ben-simmons",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Caleb Wilson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107920/caleb-wilson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          10683720.0,
+          11217960.0,
+          11752320.0,
+          14866685.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Richie Saunders",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/108430/richie-saunders",
+        "contractType": "UNSIGNED_PICK",
+        "restriction": null,
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (CHA)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (CHA)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (CHA)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (CHA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (CHA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (CHA)"
+      }
+    ]
+  },
+  "CHI": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Nikola Jokic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15393/nikola-jokic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          59033114.0,
+          62841702.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Trey Murphy III",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74124/trey-murphy-iii",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          27000000.0,
+          29000000.0,
+          31000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Dylan Harper",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98598/dylan-harper",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          12989040.0,
+          13607760.0,
+          17172994.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jabari Smith Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78109/jabari-smith-jr",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          23643411.0,
+          21751940.0,
+          23643411.0,
+          25534883.0,
+          27426355.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Goga Bitadze",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31575/goga-bitadze",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7608696.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Isaiah Joe",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70691/isaiah-joe",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          11323006.0,
+          11323006.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Derrick Jones Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/21067/derrick-jones-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10476190.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Duncan Robinson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27658/duncan-robinson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15992957.0,
+          15151222.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Klay Thompson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8062/klay-thompson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          17460317.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Sharife Cooper",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74155/sharife-cooper",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Trendon Watford",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74232/trendon-watford",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Jalen Pickett",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84465/jalen-pickett",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Dalton Knecht",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91749/dalton-knecht",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4201080.0,
+          6452860.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Julian Phillips",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84444/julian-phillips",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Noa Essengue",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98619/noa-essengue",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5701200.0,
+          5972760.0,
+          8230464.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 53"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 58"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (CHI)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (CHI)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (CHI)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (CHI)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (CHI)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (CHI)"
+      }
+    ]
+  },
+  "CLE": {
+    "players": [
+      {
+        "position": "F",
+        "name": "Paolo Banchero",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78110/paolo-banchero",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          41240250.0,
+          44539470.0,
+          47838690.0,
+          51137910.0,
+          54437130.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Derrick White",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23624/derrick-white",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          30348000.0,
+          32596000.0,
+          34844000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Isaiah Hartenstein",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23644/isaiah-hartenstein",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          23148148.0,
+          25000000.0,
+          26851852.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Mikal Bridges",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26976/mikal-bridges",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          33482145.0,
+          36160714.0,
+          38839285.0,
+          41517856.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jakob Poeltl",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20214/jakob-poeltl",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          19500000.0,
+          27300000.0,
+          29484000.0,
+          27300000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jaden McDaniels",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70670/jaden-mcdaniels",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          26200000.0,
+          28006898.0,
+          29813790.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Javon Small",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99261/javon-small",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Max Strus",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/32411/max-strus",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          16660836.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Ryan Dunn",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91771/ryan-dunn",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2784240.0,
+          5025553.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Taurean Prince",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20217/taurean-prince",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3815861.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Tyrese Proctor",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98636/tyrese-proctor",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Christian Koloko",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78131/christian-koloko",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Jabari Walker",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78167/jabari-walker",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jase Richardson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98604/jase-richardson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3132360.0,
+          3282000.0,
+          5910882.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jalen Wilson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84477/jalen-wilson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Chris Youngblood",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/101235/chris-youngblood",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Craig Porter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84768/craig-porter-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 48"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (CLE)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (CLE)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (MIA)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (OKC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (CLE)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (OKC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (MIN)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (CLE)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (CLE)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (SAS)"
+      }
+    ]
+  },
+  "DAL": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Tyrese Maxey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70663/tyrese-maxey",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          40770520.0,
+          43582280.0,
+          46394040.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Cooper Flagg",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98597/cooper-flagg",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          14517480.0,
+          15208680.0,
+          19178146.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jalen Suggs",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74112/jalen-suggs",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          32400000.0,
+          29600000.0,
+          26800000.0,
+          26700000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Kel'El Ware",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91767/kelel-ware",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4654920.0,
+          7135992.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Yanic Konan Niederhauser",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99185/yanic-konan-niederhauser",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2880960.0,
+          3018480.0,
+          5448356.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Kyle Filipowski",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91757/kyle-filipowski",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3000000.0,
+          3000000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jalen Smith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70652/jalen-smith",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9428571.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "GG Jackson II",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/85972/gg-jackson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jaylin Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78150/jaylin-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7774648.0,
+          7774648.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Devin Carter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91758/devin-carter",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5158080.0,
+          7370897.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jaden Ivey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78111/jaden-ivey",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Nolan Traore",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98615/nolan-traore",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4002000.0,
+          4193040.0,
+          6457282.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Zuby Ejiofor",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107954/zuby-ejiofor",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3453360.0,
+          3626160.0,
+          3798360.0,
+          6445818.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Joshua Jefferson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107951/joshua-jefferson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2969520.0,
+          3118560.0,
+          3266880.0,
+          5896718.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ryan Conwell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107964/ryan-conwell",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          1357763.0,
+          2294370.0,
+          2694363.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 59"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (DAL)"
+      }
+    ]
+  },
+  "DEN": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Stephen Curry",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6287/stephen-curry",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          62587158.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Evan Mobley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74110/evan-mobley",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          50105628.0,
+          53817156.0,
+          57528684.0,
+          61240212.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jeremiah Fears",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98603/jeremiah-fears",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7896240.0,
+          8271960.0,
+          10505389.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Gui Santos",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78165/gui-santos",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          4629630.0,
+          5000000.0,
+          5370370.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "De'Andre Hunter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31561/deandre-hunter",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          24910714.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Walter Clayton Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98613/walter-clayton-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4190520.0,
+          4390320.0,
+          6752312.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jordan Walsh",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84467/jordan-walsh",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0,
+          5000000.0,
+          5250000.0,
+          5500000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Justin Edwards",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91770/justin-edwards",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2411090.0,
+          2616754.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Trayce Jackson-Davis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84443/trayce-jackson-davis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Darius Acuff Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107922/darius-acuff-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          8021640.0,
+          8422920.0,
+          8823600.0,
+          11205972.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Labaron Philon Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98628/labaron-philon-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3597120.0,
+          3776760.0,
+          3956760.0,
+          6508871.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 51"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (DEN)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (PHI)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (DEN)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (PHI)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (DEN)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (DEN)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (PHI)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (DEN)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (DEN)"
+      }
+    ]
+  },
+  "DET": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Shai Gilgeous-Alexander",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26977/shai-gilgeous-alexander",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          40806150.0,
+          60637500.0,
+          65488500.0,
+          70339500.0,
+          75190500.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ryan Rollins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78155/ryan-rollins",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          4000000.0,
+          4000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Domantas Sabonis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20216/domantas-sabonis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          45472000.0,
+          48608000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Brandon Ingram",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20207/brandon-ingram",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          40000000.0,
+          41904762.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Mitchell Robinson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27002/mitchell-robinson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15044000.0,
+          15796200.0,
+          16548400.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Obi Toppin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70650/obi-toppin",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15000000.0,
+          16025000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Davion Mitchell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74116/davion-mitchell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          12400000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Cameron Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31568/cameron-johnson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          23062500.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Dru Smith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74420/dru-smith",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0,
+          2934742.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Yves Missi",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91761/yves-missi",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3512760.0,
+          5595827.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Trey Alexander",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94483/trey-alexander",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Yuki Kawamura",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95565/yuki-kawamura",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Rayan Rupert",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82212/rayan-rupert",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Lachlan Olbrich",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99268/lachlan-olbrich",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2029,
+        "description": "Round 1 (DET)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (DET)"
+      }
+    ]
+  },
+  "GSW": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Joel Embiid",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15355/joel-embiid",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          57985752.0,
+          62624612.0,
+          67263472.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Amen Thompson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82199/amen-thompson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          12258609.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Brayden Burries",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107926/brayden-burries",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6417360.0,
+          6738000.0,
+          7058520.0,
+          8999614.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Collin Gillespie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78276/collin-gillespie",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10714286.0,
+          11571429.0,
+          12428571.0,
+          13285714.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "John Konchar",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/32170/john-konchar",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6165000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Julian Champagnie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78268/julian-champagnie",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15350000.0,
+          15000000.0,
+          14650000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kris Dunn",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20210/kris-dunn",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5684800.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Ziaire Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74117/ziaire-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jake LaRavia",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78141/jake-laravia",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "A.J. Green",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78250/aj-green",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10044644.0,
+          10848215.0,
+          11651786.0,
+          12455355.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jared McCain",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91760/jared-mccain",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4422600.0,
+          6784268.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tidjane Salaun",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91756/tidjane-salaun",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          8237880.0,
+          10445633.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Johnny Furphy",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91768/johnny-furphy",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          2296271.0,
+          2486995.0,
+          3056337.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jamal Cain",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78584/jamal-cain",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Johnny Juzang",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78583/johnny-juzang",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Harrison Ingram",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91775/harrison-ingram",
+        "contractType": "EXHIBIT_10",
+        "restriction": null,
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Bilal Coulibaly",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82317/bilal-coulibaly",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          9240012.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Matisse Thybulle",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31577/matisse-thybulle",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Will Riley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98622/will-riley",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3688320.0,
+          3864000.0,
+          6155352.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Yaxel Lendeborg",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98632/yaxel-lendeborg",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6096240.0,
+          6402180.0,
+          6706200.0,
+          8899128.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 52"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (GSW)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (MIN)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (GSW)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (GSW)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (GSW)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (GSW)"
+      }
+    ]
+  },
+  "HOU": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Alex Sarr",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91734/alex-sarr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          12370680.0,
+          15611798.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Tyler Herro",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31570/tyler-herro",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          33000000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jonathan Kuminga",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74114/jonathan-kuminga",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Jarace Walker",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82201/jarace-walker",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          8478542.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jordan Poole",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31587/jordan-poole",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          34044642.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Lonzo Ball",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23597/lonzo-ball",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Cam Whitmore",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82202/cam-whitmore",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5458310.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kentavious Caldwell-Pope",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13321/kentavious-caldwell-pope",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jamaree Bouyea",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78578/jamaree-bouyea",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Tyler Kolek",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91769/tyler-kolek",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2296271.0,
+          2486995.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Andrew Wiggins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15353/andrew-wiggins",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          30169644.0,
+          16510000.0,
+          17320356.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Bogdan Bogdanovic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15379/bogdan-bogdanovic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Caleb Martin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/32682/caleb-martin",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10001494.0,
+          9371351.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Hugo Gonzalez",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98623/hugo-gonzalez",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2923560.0,
+          3062640.0,
+          5528065.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Aaron Holiday",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26989/aaron-holiday",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Ochai Agbaji",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78124/ochai-agbaji",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Aday Mara",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107930/aday-mara",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5791680.0,
+          6081480.0,
+          6371160.0,
+          8779459.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Mikel Brown Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107925/mikel-brown-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          8787000.0,
+          9226440.0,
+          9666000.0,
+          12256488.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (HOU)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (NOP)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (HOU)"
+      }
+    ]
+  },
+  "IND": {
+    "players": [
+      {
+        "position": "G",
+        "name": "James Harden",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6312/james-harden",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "DeAaron Fox",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23600/deaaron-fox",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          49488300.0,
+          53447364.0,
+          57406428.0,
+          61365492.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Kristaps Porzingis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17832/kristaps-porzingis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20000000.0,
+          20000000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jalen Slawson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84480/jalen-slawson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Brandon Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/75136/brandon-williams",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Bennedict Mathurin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78115/bennedict-mathurin",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Kyle Kuzma",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23622/kyle-kuzma",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20490152.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Marcus Smart",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15358/marcus-smart",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6064000.0,
+          6367200.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Buddy Hield",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20211/buddy-hield",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9658536.0,
+          10097560.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Haywood Highsmith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/28301/haywood-highsmith",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3018158.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ethan Thompson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74413/ethan-thompson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Keaton Wallace",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79960/keaton-wallace",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Gradey Dick",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82204/gradey-dick",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7131511.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Tony Bradley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23623/tony-bradley",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Jordan Hawkins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82208/jordan-hawkins",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7021895.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Dorian Finney-Smith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20757/dorian-finney-smith",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14196974.0,
+          13335000.0,
+          13335000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "N'Faly Dante",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94513/nfaly-dante",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Darryn Peterson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107918/darryn-peterson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          13195320.0,
+          13855320.0,
+          14515320.0,
+          18318835.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Bruce Thornton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/108556/bruce-thornton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          1357763.0,
+          2294370.0,
+          2694363.0,
+          2918152.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 42"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (IND)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (SAS)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (TOR)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (IND)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (TOR)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (IND)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (SAS)"
+      }
+    ]
+  },
+  "LAL": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Cade Cunningham",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74108/cade-cunningham",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          50105628.0,
+          53817156.0,
+          57528684.0,
+          61240212.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Anthony Davis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/10809/anthony-davis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          58456566.0,
+          62786682.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Franz Wagner",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74115/franz-wagner",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          41754690.0,
+          44847630.0,
+          47940570.0,
+          51033510.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Neemias Queta",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74146/neemias-queta",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          2667944.0,
+          12500000.0,
+          13500000.0,
+          14500000.0,
+          15500000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Ajay Mitchell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/92958/ajay-mitchell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2850000.0,
+          2850000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Al Horford",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/2199/al-horford",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6822000.0,
+          7163100.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jaylon Tyson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91773/jaylon-tyson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3658569.0,
+          5641599.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Cason Wallace",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82207/cason-wallace",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7420806.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Miles McBride",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74143/miles-mcbride",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3956523.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jordan Miller",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84474/jordan-miller",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5300000.0,
+          5000000.0,
+          5000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jamir Watkins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99257/jamir-watkins",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Rui Hachimura",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31566/rui-hachimura",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14000000.0,
+          14000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Daeqwon Plowden",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79950/daeqwon-plowden",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0,
+          2664401.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Nique Clifford",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98612/nique-clifford",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3263400.0,
+          3418800.0,
+          5979481.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Nae'Qwan Tomlin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95599/naeqwan-tomlin",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2411090.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Koa Peat",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107938/koa-peat",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2926800.0,
+          3073080.0,
+          3219840.0,
+          5811811.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 54"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (MIL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (WAS)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (MIL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (NYK)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (LAL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (SAS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (PHI)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (UTA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (LAL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (LAL)"
+      }
+    ]
+  },
+  "MEM": {
+    "players": [
+      {
+        "position": "GF",
+        "name": "Anthony Edwards",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70643/anthony-edwards",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          48924624.0,
+          52298736.0,
+          55672848.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Kon Knueppel",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98602/kon-knueppel",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          10516560.0,
+          11017560.0,
+          13937214.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Christian Anderson Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107935/christian-anderson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4257480.0,
+          4470000.0,
+          4683120.0,
+          7202639.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "DeAndre Ayton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26967/deandre-ayton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8104000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Coby White",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31564/coby-white",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          26811593.0,
+          24666667.0,
+          22521740.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Marvin Bagley III",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26968/marvin-bagley-iii",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Isaiah Stewart",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70658/isaiah-stewart",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15000000.0,
+          15000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Isaiah Jackson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74129/isaiah-jackson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7000000.0,
+          6400000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "John Collins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23614/john-collins",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          17000000.0,
+          17000000.0,
+          17000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Josh Green",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70660/josh-green",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14679012.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "DaRon Holmes II",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91791/daron-holmes-ii",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3372120.0,
+          5547138.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Liam McNeeley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98608/liam-mcneeley",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2902080.0,
+          3040320.0,
+          5487778.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Norman Powell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17874/norman-powell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          21500000.0,
+          22575000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Baba Miller",
+        "spotracUrl": "https://www.spotrac.com/search?q=baba+miller",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          1705630.0,
+          2294370.0,
+          2694363.0,
+          2918152.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 43"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 49"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (MEM)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (MEM)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (MEM)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (MEM)"
+      }
+    ]
+  },
+  "MIA": {
+    "players": [
+      {
+        "position": "F",
+        "name": "Jayson Tatum",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23598/jayson-tatum",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          58456566.0,
+          62786682.0,
+          67116798.0,
+          71446914.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Tyrese Haliburton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70654/tyrese-haliburton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          48924624.0,
+          52298736.0,
+          55672848.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Zion Williamson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31558/zion-williamson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          42166510.0,
+          44886930.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Dereck Lively II",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82272/dereck-lively-ii",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7239131.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Brandon Miller",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82197/brandon-miller",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          15104626.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Wendell Carter Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26973/wendell-carter-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          18102000.0,
+          19550160.0,
+          20998320.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kasparas Jakucionis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98605/kasparas-jakucionis",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3841680.0,
+          4024440.0,
+          6205687.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Rob Dillingham",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91736/rob-dillingham",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6889320.0,
+          8763216.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jaden Hardy",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78130/jaden-hardy",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0,
+          6000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Tyrese Martin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78162/tyrese-martin",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Khaman Maluach",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98606/khaman-maluach",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6316680.0,
+          6617160.0,
+          8436880.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Mason Plumlee",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13335/mason-plumlee",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Amari Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98644/amari-williams",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Jalen Hood-Schifino",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82210/jalen-hood-schifino",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 57"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (MIA)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (ORL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (MIA)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (ORL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (DET)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (GSW)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (MIA)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (MIA)"
+      }
+    ]
+  },
+  "MIL": {
+    "players": [
+      {
+        "position": "F",
+        "name": "Jalen Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78126/jalen-williams",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          41240250.0,
+          44539470.0,
+          47838690.0,
+          51137910.0,
+          54437130.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Immanuel Quickley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70667/immanuel-quickley",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          32500000.0,
+          32500000.0,
+          32500000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Myles Turner",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17839/myles-turner",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          26584164.0,
+          27850077.0,
+          29115990.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jock Landale",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74215/jock-landale",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14100000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Charles Bassey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74160/charles-bassey",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Branden Carlson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94490/branden-carlson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kenrich Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27758/kenrich-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Myron Gardner",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95569/myron-gardner",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2584539.0,
+          2525901.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Julian Strawther",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84463/julian-strawther",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4826931.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Keshad Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91786/keshad-johnson",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "A.J. Lawson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74329/aj-lawson",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Mohamed Diawara",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99263/mohamed-diawara",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2622139.0,
+          2753246.0,
+          2884353.0,
+          3019000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Drew Timme",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/85973/drew-timme",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Wendell Moore Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78145/wendell-moore-jr",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Antonio Reeves",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93956/antonio-reeves",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Chaz Lanier",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98643/chaz-lanier",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Fred VanVleet",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20778/fred-vanvleet",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          25000000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Bogoljub Markovic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99260/bogoljub-markovic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          1357763.0,
+          2294370.0,
+          2694363.0,
+          2918152.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Keon Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74128/keon-johnson",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Taylor Hendricks",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82205/taylor-hendricks",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7805900.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Ousmane Dieng",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78118/ousmane-dieng",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5750000.0,
+          5750000.0,
+          5750000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jack Kayil",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/108428/jack-kayil",
+        "contractType": "UNSIGNED_PICK",
+        "restriction": null,
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Keaton Wagler",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107921/keaton-wagler",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          9674760.0,
+          10158240.0,
+          10641960.0,
+          13483364.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (LAL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (ORL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (MIL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (MIL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (MIL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (MEM)"
+      }
+    ]
+  },
+  "MIN": {
+    "players": [
+      {
+        "position": "GF",
+        "name": "Donovan Mitchell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23608/donovan-mitchell",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          50105628.0,
+          60911900.0,
+          65784852.0,
+          70657804.0,
+          75530756.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jaylen Brown",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20208/jaylen-brown",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          57736350.0,
+          61672814.0,
+          65609278.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jarrett Allen",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23617/jarrett-allen",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          28000000.0,
+          30240000.0,
+          32480000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "T.J. McConnell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/18252/tj-mcconnell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          11000000.0,
+          11800000.0,
+          11800000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Santi Aldama",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74137/santi-aldama",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          17007043.0,
+          17007043.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Paul Reed",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70700/paul-reed",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5602689.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "De'Anthony Melton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27012/deanthony-melton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5477000.0,
+          5750850.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Royce O'Neale",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/24240/royce-oneale",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10875000.0,
+          11625000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kyle Anderson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15382/kyle-anderson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Blake Hinson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94488/blake-hinson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Pelle Larsson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91787/pelle-larsson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2296271.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Daniss Jenkins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94498/daniss-jenkins",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Isaiah Stevens",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94497/isaiah-stevens",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Kevin Love",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6132/kevin-love",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Ryan Kalkbrenner",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98627/ryan-kalkbrenner",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2411090.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Svi Mykhailiuk",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27013/sviatoslav-mykhailiuk",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3850000.0,
+          4025000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Malevy Leons",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95611/malevy-leons",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Johni Broome",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98634/johni-broome",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2029,
+        "description": "Round 1 (MIN)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (MIN)"
+      }
+    ]
+  },
+  "NOP": {
+    "players": [
+      {
+        "position": "GF",
+        "name": "Austin Reaves",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74218/austin-reaves",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          41240250.0,
+          42954030.0,
+          46253250.0,
+          49552470.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Ausar Thompson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82200/ausar-thompson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          11117925.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Robert Williams III",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26993/robert-williams-iii",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14000000.0,
+          14500000.0,
+          15000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Nic Claxton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31590/nicolas-claxton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          23320738.0,
+          21099720.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kennedy Chandler",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78127/kennedy-chandler",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Jonas Valanciunas",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8055/jonas-valanciunas",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Bez Mbeng",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/101318/bez-mbeng",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Ace Bailey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98599/ace-bailey",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          9523080.0,
+          9976560.0,
+          12640302.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Malik Monk",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23606/malik-monk",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20190035.0,
+          21582451.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Dennis Schroder",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13330/dennis-schr%C3%B6der",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14809200.0,
+          15514400.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Max Christie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78136/max-christie",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8285714.0,
+          8857143.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Keon Ellis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78267/keon-ellis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9000000.0,
+          9000000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Anthony Gill",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70741/anthony-gill",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Will Richard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99269/will-richard",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Bryce McGowens",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78140/bryce-mcgowens",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0,
+          2934742.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jarred Vanderbilt",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/27007/jarred-vanderbilt",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          12428571.0,
+          13285714.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Drew Eubanks",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/28052/drew-eubanks",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Blake Wesley",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78132/blake-wesley",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Micah Peavy",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98645/micah-peavy",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0,
+          2735698.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Dailyn Swain",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107941/dailyn-swain",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4965480.0,
+          5213760.0,
+          5461920.0,
+          8373124.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 37"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 60"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (DET)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (NOP)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (NOP)"
+      }
+    ]
+  },
+  "NYK": {
+    "players": [
+      {
+        "position": "FC",
+        "name": "Scottie Barnes",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74111/scottie-barnes",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          41754690.0,
+          44847630.0,
+          47940570.0,
+          51033510.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Tre Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70683/tre-jones",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8000000.0,
+          8000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Derik Queen",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98607/derik-queen",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5416080.0,
+          5673840.0,
+          8107918.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Andre Drummond",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/10817/andre-drummond",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Egor Demin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98610/egor-demin",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7233720.0,
+          7578240.0,
+          9639522.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Moritz Wagner",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26991/moritz-wagner",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9268293.0,
+          9731707.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Ben Sheppard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84440/ben-sheppard",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5031669.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Anfernee Simons",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26990/anfernee-simons",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0,
+          6300000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Marcus Sasser",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84442/marcus-sasser",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5198983.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Sidy Cissoko",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84471/sidy-cissoko",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2497812.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jonathan Isaac",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23601/jonathan-isaac",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Yang Hansen",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99184/yang-hansen",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4643520.0,
+          4864920.0,
+          7462788.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Kessler Edwards",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74151/kessler-edwards",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Cameron Boozer",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107919/cameron-boozer",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          11849760.0,
+          12441840.0,
+          13034880.0,
+          16476089.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kingston Flemings",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107923/kingston-flemings",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          7348680.0,
+          7716120.0,
+          8083680.0,
+          10282441.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (ORL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (OKC)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (PHO)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (MEM)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (DAL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (NYK)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (NYK)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (TOR)"
+      }
+    ]
+  },
+  "OKC": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Luka Doncic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26969/luka-doncic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          49488300.0,
+          53447364.0,
+          57406428.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Reed Sheppard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91739/reed-sheppard",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          11108880.0,
+          14041625.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "OG Anunoby",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23618/og-anunoby",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          42500000.0,
+          45431034.0,
+          48362068.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Day'Ron Sharpe",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74136/dayron-sharpe",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10000000.0,
+          10000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Sandro Mamukelashvili",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74161/sandro-mamukelashvili",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13000000.0,
+          12350000.0,
+          13000000.0,
+          13650000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Cedric Coward",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98639/cedric-coward",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6001080.0,
+          6286920.0,
+          8342743.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Justin Champagnie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74240/justin-champagnie",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2667944.0,
+          3005085.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jordan Goodwin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74333/jordan-goodwin",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5864198.0,
+          6333333.0,
+          6802469.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Quinten Post",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93959/quinten-post",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9000000.0,
+          8550000.0,
+          8550000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tari Eason",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78123/tari-eason",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          14053356.0,
+          15117624.0,
+          16301892.0,
+          17426160.0,
+          18550428.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "David Jones Garcia",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/100548/david-jones-garcia",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Chris Cenac Jr. ",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107933/chris-cenac-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2988120.0,
+          3137640.0,
+          3287400.0,
+          5930470.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "PJ Hall",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94515/pj-hall",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Tre Mann",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74125/tre-mann",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8000000.0,
+          8000000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Carter Bryant",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98614/carter-bryant",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5145360.0,
+          5390640.0,
+          7983539.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Ariel Hukporti",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93962/ariel-hukporti",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3400000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Omer Yurtseven",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70706/omer-yurtseven",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "James Nnaji",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82274/james-nnaji",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Karlo Matkovic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78144/karlo-matkovic",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2296271.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Ulrich Chomche",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91781/ulrich-chomche",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2028,
+        "description": "Round 2 (NYK)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (OKC)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (OKC)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (UTA)"
+      }
+    ]
+  },
+  "ORL": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Victor Wembanyama",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82196/victor-wembanyama",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          16868246.0,
+          43500000.0,
+          46980000.0,
+          50460000.0,
+          53940000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kawhi Leonard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8066/kawhi-leonard",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Jalen Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74127/jalen-johnson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          30000000.0,
+          30000000.0,
+          30000000.0,
+          30000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ty Jerome",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31582/ty-jerome",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9220050.0,
+          9659100.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Kevin Durant",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/2717/kevin-durant",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          43902439.0,
+          46097561.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "LeBron James",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/2257/lebron-james",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          3876529.0,
+          4070355.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Scotty Pippen Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78256/scotty-pippen-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2461462.0,
+          2789215.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Cam Spencer",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93960/cam-spencer",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2411090.0,
+          2616754.0,
+          2830685.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jay Huff",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74262/jay-huff",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2667944.0,
+          3005085.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Luke Kornet",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23670/luke-kornet",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10450000.0,
+          9900000.0,
+          9350000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Damian Lillard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/10814/damian-lillard",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13398000.0,
+          14104000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Jahmai Mashack",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99272/jahmai-mashack",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Josh Okogie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26986/josh-okogie",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0,
+          6000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Tarris Reed Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107959/tarris-reed-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3076920.0,
+          3230520.0,
+          3384480.0,
+          6102218.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "AJ Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/92952/aj-johnson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3237120.0,
+          5493394.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 39"
+      }
+    ]
+  },
+  "PHI": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Jalen Brunson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26999/jalen-brunson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          37739521.0,
+          40535041.0,
+          43330561.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Chet Holmgren",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78108/chet-holmgren",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          41240250.0,
+          44539470.0,
+          47838690.0,
+          51137910.0,
+          54437130.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Desmond Bane",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70672/desmond-bane",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          39446090.0,
+          42166510.0,
+          44886930.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Payton Pritchard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70668/payton-pritchard",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7767857.0,
+          8303571.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "VJ Edgecombe",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98600/vj-edgecombe",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          11663880.0,
+          12219840.0,
+          15445878.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Ivica Zubac",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20238/ivica-zubac",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20342140.0,
+          21790300.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Miles Bridges",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26978/miles-bridges",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          22826087.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Moses Moody",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74121/moses-moody",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          12500000.0,
+          13425925.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Josh Minott",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78156/josh-minott",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          4500000.0,
+          4500000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ryan Nembhard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99651/ryan-nembhard",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2150917.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Moussa Cisse",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99882/moussa-cisse",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2185116.0,
+          2571895.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tosan Evbuomwan",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/85500/tosan-evbuomwan",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "CF",
+        "name": "Thomas Sorber",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98621/thomas-sorber",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4887720.0,
+          5120400.0,
+          7849573.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 38"
+      },
+      {
+        "year": 2026,
+        "description": "Pick 40"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (PHI)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (PHI)"
+      }
+    ]
+  },
+  "PHO": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Walker Kessler",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78133/walker-kessler",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          30108821.0,
+          31614262.0,
+          33119703.0,
+          34625144.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Dyson Daniels",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78114/dyson-daniels",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          25000000.0,
+          25000000.0,
+          25000000.0,
+          25000000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Jusuf Nurkic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15368/jusuf-nurkic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          11458333.0,
+          10541667.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "CJ McCollum",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/13323/cj-mccollum",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          21000000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Matas Buzelis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91738/matas-buzelis",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5715360.0,
+          7584283.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Isaiah Collier",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91753/isaiah-collier",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2763960.0,
+          4988948.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Saddiq Bey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70661/saddiq-bey",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6557080.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Anthony Black",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82203/anthony-black",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          10106316.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Brandin Podziemski",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84438/brandin-podziemski",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5679459.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tobias Harris",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8070/tobias-harris",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15044000.0,
+          15796200.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Collin Murray-Boyles",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98609/collin-murray-boyles",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6649560.0,
+          6966000.0,
+          8874684.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Zach Collins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23605/zach-collins",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          8500000.0,
+          8500000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Tristan Vukcevic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84470/tristan-vukcevic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3000000.0,
+          3000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Caris LeVert",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20225/caris-levert",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14809200.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Elijah Harkless",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95564/elijah-harkless",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Dalen Terry",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78128/dalen-terry",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Malaki Branham",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78120/malaki-branham",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Bennett Stirtz",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107939/bennett-stirtz/transactions",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4717320.0,
+          4953240.0,
+          5189400.0,
+          7960540.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (NYK)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (PHO)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (PHO)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (PHO)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (PHO)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (PHO)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (NOP)"
+      }
+    ]
+  },
+  "POR": {
+    "players": [
+      {
+        "position": "FC",
+        "name": "Lauri Markkanen",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23602/lauri-markkanen",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          46113154.0,
+          49824681.0,
+          53536209.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Bam Adebayo",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23609/bam-adebayo",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          49488300.0,
+          53447364.0,
+          57406428.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Stephon Castle",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91750/stephon-castle",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          10015920.0,
+          12670139.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Dejounte Murray",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20234/dejounte-murray",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          32785071.0,
+          30751504.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Peyton Watson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78138/peyton-watson",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Bub Carrington",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91766/bub-carrington",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4900560.0,
+          7257730.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Zaccharie Risacher",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91733/zaccharie-risacher",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          13826040.0,
+          17434637.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Dominick Barlow",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78565/dominick-barlow",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3415000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Leonard Miller",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82215/leonard-miller",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2406205.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Khris Middleton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/10864/khris-middleton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5591122.0,
+          5870678.0,
+          6150234.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jevon Carter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26998/jevon-carter",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Asa Newell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98611/asa-newell",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3399480.0,
+          3560880.0,
+          6042814.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jeremiah Robinson-Earl",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74139/jeremiah-robinson-earl",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Koby Brea",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99256/koby-brea",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Jae'sean Tate",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70758/jaesean-tate",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Xavier Tillman",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70677/xavier-tillman",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Morez Johnson Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107942/morez-johnson-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6754800.0,
+          7093080.0,
+          7430640.0,
+          9466636.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (POR)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (DAL)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (DET)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (POR)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (DAL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (POR)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (POR)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (POR)"
+      }
+    ]
+  },
+  "SAC": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Jalen Duren",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78116/jalen-duren",
+        "contractType": null,
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Pascal Siakam",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20232/pascal-siakam",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          48924624.0,
+          52298736.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Zach Edey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91755/zach-edey",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6332760.0,
+          8067937.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Andrew Nembhard",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78137/andrew-nembhard",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          19550160.0,
+          20998320.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jrue Holiday",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6316/jrue-holiday",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          34800000.0,
+          37200000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Naz Reid",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/32045/naz-reid",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          23275862.0,
+          25000000.0,
+          26724138.0,
+          28448276.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Maxime Raynaud",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98635/maxime-raynaud",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2150918.0,
+          2525901.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Kevin Huerter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26985/kevin-huerter",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9507042.0,
+          8746479.0,
+          8746479.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Brice Sensabaugh",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82213/brice-sensabaugh",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4862237.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Chaney Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/101247/chaney-johnson",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Jamal Shead",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/93955/jamal-shead",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2296271.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tristan da Silva",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91759/tristan-da-silva",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3991200.0,
+          6138466.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Aaron Wiggins",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74162/aaron-wiggins",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9028038.0,
+          8168226.0,
+          8168226.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Tre Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98601/tre-johnson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          8649600.0,
+          9061680.0,
+          11490211.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ja'Kobe Walter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91754/jakobe-walter",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3811800.0,
+          5870172.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Brooks Barnhizer",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99258/brooks-barnhizer",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "F",
+        "name": "Allen Graves",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107944/allen-graves",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4065720.0,
+          4268880.0,
+          4472640.0,
+          6887866.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Henri Veesaar",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107947/henri-veesaar",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          1357763.0,
+          2294370.0,
+          2694363.0,
+          2918152.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 2 (SAC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (SAC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (WAS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (SAC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (LAL)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (SAC)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (SAC)"
+      }
+    ]
+  },
+  "SAS": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Josh Giddey",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74113/josh-giddey",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          25000000.0,
+          25000000.0,
+          25000000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Deni Avdija",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70651/deni-avdija",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13125000.0,
+          11875000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Michael Porter Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26980/michael-porter-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          40806150.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ja Morant",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31559/ja-morant",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          42166510.0,
+          44886930.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kadary Richmond",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/101303/kadary-richmond",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Russell Westbrook",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6141/russell-westbrook",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Daniel Gafford",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31597/daniel-gafford",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          17263584.0,
+          18126763.0,
+          18989842.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Collin Sexton",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26974/collin-sexton",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9366000.0,
+          9834300.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Bobby Portis",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17850/bobby-portis",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14521414.0,
+          15597074.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Moussa Diabate",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78154/moussa-diabate",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2461462.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Oscar Tshiebwe",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84732/oscar-tshiebwe",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Olivier-Maxence Prosper",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84439/olivier-maxence-prosper",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2497812.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Danny Wolf",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98616/danny-wolf",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2941440.0,
+          3081840.0,
+          5559640.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Javonte Green",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/32409/javonte-green",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3943679.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Cam Thomas",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74134/cameron-thomas",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "C",
+        "name": "Adem Bona",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91790/adem-bona",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2296271.0,
+          2486995.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Cameron Carr",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107940/cameron-carr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3315360.0,
+          3481080.0,
+          3646800.0,
+          6378253.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Adou Thiero",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98625/adou-thiero",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          2150917.0,
+          2525901.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 44"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (MIA)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (MIL)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (OKC)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (SAS)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (ORL)"
+      }
+    ]
+  },
+  "SEA": {
+    "players": [
+      {
+        "position": "F",
+        "name": "Jimmy Butler",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8081/jimmy-butler",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          56832773.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "P.J. Washington",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31569/pj-washington",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          19813044.0,
+          21398087.0,
+          22983132.0,
+          24568176.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Keegan Murray",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78112/keegan-murray",
+        "contractType": "STANDARD",
+        "restriction": null,
+        "salaryYears": [
+          24137936.0,
+          26068965.0,
+          27999999.0,
+          29931033.0,
+          31862067.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Precious Achiuwa",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70662/precious-achiuwa",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5477000.0,
+          5750850.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Sergio de Larrea",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107961/sergio-de-larrea",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3182280.0,
+          3341280.0,
+          3500880.0,
+          6305086.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Keldon Johnson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31588/keldon-johnson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          18000000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "D'Angelo Russell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17830/dangelo-russell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5969250.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Ron Holland",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91751/ron-holland-ii",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          9069600.0,
+          11491183.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Dean Wade",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31963/dean-wade",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9000000.0,
+          9450000.0,
+          9900000.0,
+          10350000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Dwight Powell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15397/dwight-powell",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Nick Smith Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82206/nick-smith-jr",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Jaylen Clark",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84479/jaylen-clark",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          3086420.0,
+          3333334.0,
+          3580246.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Tyler Smith",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91762/tyler-smith",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Curtis Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/100540/curtis-jones",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Kobe Bufkin",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82271/kobe-bufkin",
+        "contractType": "EXHIBIT_10",
+        "restriction": null,
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Kyrie Irving",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/8051/kyrie-irving",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          39491282.0,
+          42416562.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 46"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (SEA)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (SEA)"
+      }
+    ]
+  },
+  "TOR": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Kevin Porter Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31589/kevin-porter-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5390700.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Julius Randle",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15359/julius-randle",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          33333334.0,
+          35802468.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jaren Jackson Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26970/jaren-jackson-jr",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          49000000.0,
+          50500000.0,
+          52000000.0,
+          53500000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Nickeil Alexander-Walker",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31574/nickeil-alexander-walker",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14403710.0,
+          15161800.0,
+          15919890.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Mark Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78121/mark-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          11728395.0,
+          12666667.0,
+          13604938.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Draymond Green",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/10860/draymond-green",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Gary Payton II",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/20272/gary-payton-ii",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Quentin Grimes",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74132/quentin-grimes",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13953489.0,
+          14651163.0,
+          15348837.0,
+          16046511.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Anfernee Simons",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26990/anfernee-simons",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          6000000.0,
+          6300000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Brook Lopez",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/6136/brook-lopez",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9187500.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Noah Clowney",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82214/noah-clowney",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5414034.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Alex Caruso",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/21076/alex-caruso",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          19550160.0,
+          20998320.0,
+          22446480.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Sam Hauser",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74311/sam-hauser",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          10848215.0,
+          11651785.0,
+          12455356.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Spencer Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/95438/spencer-jones",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          5853659.0,
+          6146341.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Kobe Brown",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/84464/kobe-brown",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Pat Spencer",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79256/pat-spencer",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Kobe Sanders",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/99262/kobe-sanders",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2622139.0,
+          2753246.0,
+          2884353.0,
+          3019474.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Ebuka Okorie",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107946/ebuka-okorie",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          4481280.0,
+          4705440.0,
+          4929360.0,
+          7571497.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 56"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (TOR)"
+      }
+    ]
+  },
+  "UTA": {
+    "players": [
+      {
+        "position": "C",
+        "name": "Alperen Sengun",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74123/alperen-sengun",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          35642202.0,
+          37339450.0,
+          39036697.0,
+          39036697.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Onyeka Okongwu",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70648/onyeka-okongwu",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          16100000.0,
+          16880000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Devin Vassell",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70653/devin-vassell",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          27500000.0,
+          25108696.0,
+          27500000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Micah Potter",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74418/micah-potter",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2801346.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Bones Hyland",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74133/nahshon-hyland",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2845883.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Clint Capela",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/15377/clint-capela",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7035000.0,
+          7370000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Thomas Bryant",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23643/thomas-bryant",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Terance Mann",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31607/terance-mann",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          15500000.0,
+          16000000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Nikola Jovic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78135/nikola-jovic",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          16200000.0,
+          14904000.0,
+          15096000.0,
+          16200000.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Ben Saraf",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98626/ben-saraf",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3028560.0,
+          3172920.0,
+          5720776.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Patrick Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70646/patrick-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          18000000.0,
+          18000000.0,
+          18000000.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Jeremy Sochan",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78122/jeremy-sochan",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Lindy Waters III",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/75746/lindy-waters-iii",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Isaac Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/94481/isaac-jones",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Delon Wright",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17848/delon-wright",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Brandon Boston Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74158/brandon-boston-jr",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "GF",
+        "name": "Cody Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91752/cody-williams",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6015600.0,
+          7669890.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Cole Anthony",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70657/cole-anthony",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Jayden Quaintance",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107936/jayden-quaintance",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          3902760.0,
+          4097880.0,
+          4292880.0,
+          6619621.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "AJ Dybantsa",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107917/aj-dybantsa",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          14748000.0,
+          15485760.0,
+          16223040.0,
+          20457254.0
+        ]
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2027,
+        "description": "Round 1 (UTA)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 1 (SAC)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (UTA)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (IND)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 1 (POR)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (UTA)"
+      }
+    ]
+  },
+  "WAS": {
+    "players": [
+      {
+        "position": "G",
+        "name": "Keyonte George",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82209/keyonte-george",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          6563925.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Josh Hart",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/23625/josh-hart",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          20923760.0,
+          22375280.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Grayson Allen",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/26987/grayson-allen",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          18125000.0,
+          19375000.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Jaime Jaquez Jr.",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82323/jaime-jaquez-jr",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5939141.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Naji Marshall",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70704/naji-marshall",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          9428571.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Scoot Henderson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/82198/scoot-henderson",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          13585523.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Jose Alvarado",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74331/jose-alvarado",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          4439656.0,
+          4794828.0,
+          5150000.0
+        ]
+      },
+      {
+        "position": "G",
+        "name": "Quenton Jackson",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/79955/quenton-jackson",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2584539.0,
+          2934742.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Simone Fontecchio",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/78654/simone-fontecchio",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Grant Williams",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/31579/grant-williams",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          14265750.0
+        ]
+      },
+      {
+        "position": "FC",
+        "name": "Kevon Looney",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/17858/kevon-looney",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          2449421.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Corey Kispert",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/74122/corey-kispert",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          13975000.0,
+          13025000.0,
+          13025000.0
+        ]
+      },
+      {
+        "position": "C",
+        "name": "Nick Richards",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70684/nick-richards",
+        "contractType": null,
+        "restriction": "UFA",
+        "salaryYears": []
+      },
+      {
+        "position": "G",
+        "name": "Nikola Topic",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/91737/nikola-topic",
+        "contractType": "STANDARD",
+        "restriction": "RFA",
+        "salaryYears": [
+          5429760.0,
+          7482210.0
+        ]
+      },
+      {
+        "position": "GF",
+        "name": "Kam Jones",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/98618/kam-jones",
+        "contractType": "TWO_WAY",
+        "restriction": "RFA",
+        "salaryYears": []
+      },
+      {
+        "position": "FC",
+        "name": "Zeke Nnaji",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/70664/zeke-nnaji",
+        "contractType": "STANDARD",
+        "restriction": "UFA",
+        "salaryYears": [
+          7466667.0,
+          7466667.0
+        ]
+      },
+      {
+        "position": "F",
+        "name": "Karim Lopez",
+        "spotracUrl": "https://www.spotrac.com/nba/player/_/id/107927/karim-lopez",
+        "contractType": "UNSIGNED_PICK",
+        "restriction": null,
+        "salaryYears": []
+      }
+    ],
+    "draftPicks": [
+      {
+        "year": 2026,
+        "description": "Pick 41"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (WAS)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (SAS)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (MIN)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (DET)"
+      },
+      {
+        "year": 2027,
+        "description": "Round 2 (TOR)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (WAS)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (CLE)"
+      },
+      {
+        "year": 2028,
+        "description": "Round 2 (TOR)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 1 (WAS)"
+      },
+      {
+        "year": 2029,
+        "description": "Round 2 (WAS)"
+      }
+    ]
+  }
+}
