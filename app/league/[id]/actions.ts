@@ -94,6 +94,7 @@ export async function addTeam(
 export async function claimTeam(
   leagueId: string,
   teamId: string,
+  _prevState: AddTeamResult | undefined,
   formData: FormData
 ): Promise<AddTeamResult | undefined> {
   await requireCommissioner(leagueId);
