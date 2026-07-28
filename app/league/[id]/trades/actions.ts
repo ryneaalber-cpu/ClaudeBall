@@ -6,11 +6,14 @@ import type { Prisma } from "@prisma/client";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
 
-/** Same shape as everywhere else: the team's own owner, or the commissioner, can act for a team. */
+/** Same shape as everywhere else: the team's own owner, or the commissioner, can act for a team.
+ * ownerId can be null for an unclaimed team — the comparison below already handles that correctly
+ * (null !== a real user id, so an unclaimed team is never treated as "owned by" whoever's asking),
+ * this just widens the type to match what a real Team from Prisma can actually be now. */
 async function assertCanActFor(
   leagueId: string,
   userId: string,
-  team: { ownerId: string }
+  team: { ownerId: string | null }
 ) {
   const membership = await prisma.leagueMembership.findUnique({
     where: { userId_leagueId: { userId, leagueId } },
