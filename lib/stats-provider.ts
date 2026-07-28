@@ -43,6 +43,22 @@ export interface ProviderPlayer {
   team_id: number;
 }
 
+/** A player as returned by the /players endpoints specifically — a
+ * genuinely different shape from ProviderPlayer above, confirmed
+ * separately against balldontlie's own docs for this endpoint: here
+ * the full team object is nested directly in the player, not a
+ * sibling field with just a team_id like /stats uses. Same company,
+ * same general shape of data, two different response shapes depending
+ * on which endpoint returned it — worth its own type specifically so
+ * this doesn't get silently assumed to match ProviderPlayer again. */
+export interface ProviderPlayerListing {
+  id: number;
+  first_name: string;
+  last_name: string;
+  position: string;
+  team: ProviderTeam;
+}
+
 export interface ProviderGame {
   id: number;
   date: string;
@@ -151,7 +167,7 @@ export async function fetchStatsForGames(gameIds: number[], cursor?: number) {
 
 /** Players on a given NBA team (by provider team id). */
 export async function fetchPlayersByTeam(teamId: number, cursor?: number) {
-  return bdlFetch<ProviderPlayer[]>("/players", { team_ids: [teamId], cursor });
+  return bdlFetch<ProviderPlayerListing[]>("/players", { team_ids: [teamId], cursor });
 }
 
 /** Searches players by name directly — unlike games/stats, this doesn't
@@ -160,5 +176,5 @@ export async function fetchPlayersByTeam(teamId: number, cursor?: number) {
  * roster right now but never played in whatever completed season got
  * synced in, so they'd never show up from that data alone. */
 export async function fetchPlayersBySearch(search: string, cursor?: number) {
-  return bdlFetch<ProviderPlayer[]>("/players", { search, cursor });
+  return bdlFetch<ProviderPlayerListing[]>("/players", { search, cursor });
 }

@@ -316,6 +316,18 @@ spot if found. Only genuinely not-found names — a real typo, or
 someone not yet in balldontlie's database at all — still end up
 unmatched.
 
+Building that live lookup surfaced a fourth, separate bug: `/players`
+turned out to have a genuinely different response shape than `/stats`.
+The `/stats` fix earlier in this file established that a stat line's
+player has a bare `team_id`, with the full team object living as a
+sibling field — but that's specific to `/stats`. `/players` nests the
+full team object directly inside the player instead. Same API, two
+different shapes for "a player" depending on which endpoint returned
+it — reusing one type for both was the actual bug. Fixed with a
+second, separate type (`ProviderPlayerListing`) specifically for the
+`/players`-shaped endpoints, confirmed against balldontlie's docs for
+that endpoint specifically rather than assumed from the other one.
+
 ## A real bug — the first time this code actually hit the live API
 
 `lib/stats-provider.ts` sent array-style filters (`dates`, `game_ids`,
